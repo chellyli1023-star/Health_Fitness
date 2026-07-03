@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-07-01",
+    "weight_kg": 73.8,
+    "sleep_hours": 7.2,
+    "resting_hr": 58,
+    "fatigue": 3,
+    "knee_pain": 0,
+    "recovery_score": 82
+  },
+  {
+    "date": "2026-07-02",
+    "weight_kg": 73.6,
+    "sleep_hours": 7,
+    "resting_hr": 57,
+    "fatigue": 3,
+    "knee_pain": 0,
+    "recovery_score": 84
+  },
+  {
+    "date": "2026-07-03",
+    "weight_kg": 73.5,
+    "sleep_hours": 7.5,
+    "resting_hr": 56,
+    "fatigue": 2,
+    "knee_pain": 0,
+    "recovery_score": 88
+  }
+]

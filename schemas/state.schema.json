@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Coach Dashboard State",
+  "type": "object",
+  "required": ["race", "today", "reasons", "week", "last_ai_adjustment", "last_updated"],
+  "additionalProperties": false,
+  "properties": {
+    "race": {
+      "type": "object",
+      "required": ["name", "date", "distance_km", "days_remaining"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "date": { "type": "string" },
+        "distance_km": { "type": "number" },
+        "days_remaining": { "type": "integer" }
+      }
+    },
+    "today": {
+      "type": "object",
+      "required": ["date", "status", "type", "content", "duration_min", "recovery"],
+      "additionalProperties": true,
+      "properties": {
+        "date": { "type": "string" },
+        "status": { "enum": ["training", "recovery", "rest"] },
+        "type": { "type": "string" },
+        "content": { "type": "string" },
+        "duration_min": { "type": "number" },
+        "recovery": { "type": "string" },
+        "reason": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "reasons": {
+      "type": "array",
+      "maxItems": 3,
+      "items": { "type": "string" }
+    },
+    "week": {
+      "type": "object",
+      "required": ["label", "progress", "days"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string" },
+        "progress": {
+          "type": "object",
+          "required": ["running_done_km", "running_target_km", "strength_done", "strength_target", "long_run_done", "long_run_target"],
+          "additionalProperties": false,
+          "properties": {
+            "running_done_km": { "type": "number" },
+            "running_target_km": { "type": "number" },
+            "strength_done": { "type": "integer" },
+            "strength_target": { "type": "integer" },
+            "long_run_done": { "type": "integer" },
+            "long_run_target": { "type": "integer" }
+          }
+        },
+        "days": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "items": {
+            "type": "object",
+            "required": ["day", "status", "type", "content"],
+            "additionalProperties": false,
+            "properties": {
+              "day": { "type": "string" },
+              "status": { "enum": ["completed", "planned", "empty", "adjusted", "warning"] },
+              "type": { "type": "string" },
+              "content": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "last_ai_adjustment": {
+      "type": "object",
+      "required": ["date", "change", "reason", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "date": { "type": "string" },
+        "change": { "type": "string" },
+        "reason": { "type": "string" },
+        "confidence": { "enum": ["High", "Medium", "Low"] }
+      }
+    },
+    "last_updated": { "type": "string" }
+  }
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AI教练">
+    <meta name="theme-color" content="#060d18">
+    <title>太舞崇礼25K</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell" aria-live="polite">
+      <header class="hero">
+        <h1 id="raceName">太舞崇礼25K</h1>
+        <div class="race-count">
+          <strong id="daysRemaining">--</strong>
+          <span>天</span>
+          <small>距离比赛</small>
+        </div>
+      </header>
+
+      <section class="card today-card" aria-label="今日训练">
+        <div class="section-head">
+          <p id="todayStatus">今天</p>
+          <span id="recoveryPill">--</span>
+        </div>
+        <div class="today-main">
+          <div>
+            <h2 id="todayType">--</h2>
+            <p id="todayContent">--</p>
+          </div>
+          <strong id="todayDuration">--</strong>
+        </div>
+      </section>
+
+      <section class="card reason-card" aria-label="为什么这样安排">
+        <div class="section-head compact-head">
+          <p>为什么这样安排</p>
+        </div>
+        <ul id="todayReason" class="reason-list"></ul>
+      </section>
+
+      <section class="card week-card" aria-label="本周计划">
+        <div class="section-head compact-head">
+          <p id="weekLabel">Week 1 · 本周计划</p>
+        </div>
+        <div id="weekDays" class="week-days"></div>
+      </section>
+
+      <section class="card progress-card" aria-label="本周目标">
+        <article class="metric">
+          <span>跑量</span>
+          <strong id="runningProgress">--</strong>
+        </article>
+        <article class="metric">
+          <span>力量</span>
+          <strong id="strengthProgress">--</strong>
+        </article>
+        <article class="metric">
+          <span>长距离</span>
+          <strong id="longRunProgress">--</strong>
+        </article>
+      </section>
+
+      <section class="card adjustment-card" aria-label="AI最近一次调整">
+        <div class="section-head compact-head">
+          <p>AI 最近一次调整</p>
+          <span id="adjustmentConfidence">--</span>
+        </div>
+        <div class="adjustment-body">
+          <time id="adjustmentDate">--</time>
+          <strong id="adjustmentChange">--</strong>
+          <p id="adjustmentReason">--</p>
+        </div>
+      </section>
+    </main>
+
+    <script id="fallback-state" type="application/json">
+      {
+        "race": {
+          "name": "太舞崇礼25K",
+          "date": "2026-09-13",
+          "distance_km": 25,
+          "days_remaining": 72
+        },
+        "today": {
+          "date": "2026-07-03",
+          "status": "training",
+          "type": "Zone2 Run",
+          "content": "跑步机 Zone2 慢跑 4.5–5km",
+          "duration_min": 40,
+          "recovery": "Good",
+          "reason": [
+            "昨天完成坡度走且膝盖0/10",
+            "本周需要建立跑步频率",
+            "后链轻微酸痛，今天避免高坡度刺激"
+          ]
+        },
+        "reasons": [
+          "昨天完成坡度走，膝盖0/10",
+          "本周需要补足跑量",
+          "后链轻微酸痛，避免连续高坡度"
+        ],
+        "week": {
+          "label": "Week 1",
+          "progress": {
+            "running_done_km": 10.65,
+            "running_target_km": 18,
+            "strength_done": 1,
+            "strength_target": 2,
+            "long_run_done": 0,
+            "long_run_target": 1
+          },
+          "days": [
+            {
+              "day": "Mon",
+              "status": "completed",
+              "type": "Zone2",
+              "content": "6km"
+            },
+            {
+              "day": "Tue",
+              "status": "empty",
+              "type": "Rest",
+              "content": "Rest"
+            },
+            {
+              "day": "Wed",
+              "status": "completed",
+              "type": "Strength",
+              "content": "Lower Body"
+            },
+            {
+              "day": "Thu",
+              "status": "completed",
+              "type": "Uphill",
+              "content": "33min"
+            },
+            {
+              "day": "Fri",
+              "status": "completed",
+              "type": "Zone2",
+              "content": "4.65km"
+            },
+            {
+              "day": "Sat",
+              "status": "planned",
+              "type": "Long Run",
+              "content": "7–8km"
+            },
+            {
+              "day": "Sun",
+              "status": "planned",
+              "type": "Recovery",
+              "content": "Walk + Stretch"
+            }
+          ]
+        },
+        "last_ai_adjustment": {
+          "date": "2026-07-03",
+          "change": "雨天户外跑 → 跑步机 Zone2",
+          "reason": "天气下雨；昨天已做高坡度；避免连续高坡度刺激",
+          "confidence": "High"
+        },
+        "last_updated": "2026-07-03T22:59:58+08:00"
+      }
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>

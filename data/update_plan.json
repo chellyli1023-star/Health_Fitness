@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "generated_by": "GPT",
+    "generated_at": "2026-07-03T22:45:00+08:00",
+    "summary": "Correct Week 1 schedule and preserve AI Coach state architecture"
+  },
+  "today": {
+    "date": "2026-07-03",
+    "status": "training",
+    "type": "Zone2 Run",
+    "content": "跑步机 Zone2 慢跑 4.5–5km",
+    "duration_min": 40,
+    "recovery": "Good",
+    "reason": [
+      "昨天完成坡度走且膝盖0/10",
+      "本周需要建立跑步频率",
+      "后链轻微酸痛，今天避免高坡度刺激"
+    ]
+  },
+  "reasons": [
+    "昨天完成坡度走，膝盖0/10",
+    "本周需要补足跑量",
+    "后链轻微酸痛，避免连续高坡度"
+  ],
+  "weekly_plan": {
+    "week_label": "Week 1",
+    "week_start": "2026-06-29",
+    "week_end": "2026-07-05",
+    "running_target_km": 18,
+    "strength_target": 2,
+    "long_run_target": 1,
+    "days": [
+      {
+        "date": "2026-06-29",
+        "day": "Mon",
+        "status": "completed",
+        "type": "Zone2",
+        "content": "6km",
+        "distance_km": 6,
+        "completed": true
+      },
+      {
+        "date": "2026-06-30",
+        "day": "Tue",
+        "status": "empty",
+        "type": "Rest",
+        "content": "Rest",
+        "completed": false
+      },
+      {
+        "date": "2026-07-01",
+        "day": "Wed",
+        "status": "completed",
+        "type": "Strength",
+        "content": "Lower Body",
+        "completed": true
+      },
+      {
+        "date": "2026-07-02",
+        "day": "Thu",
+        "status": "completed",
+        "type": "Uphill",
+        "content": "33min",
+        "duration_min": 33,
+        "completed": true
+      },
+      {
+        "date": "2026-07-03",
+        "day": "Fri",
+        "status": "completed",
+        "type": "Zone2",
+        "content": "4.65km",
+        "distance_km": 4.65,
+        "completed": true
+      },
+      {
+        "date": "2026-07-04",
+        "day": "Sat",
+        "status": "planned",
+        "type": "Long Run",
+        "content": "7–8km",
+        "completed": false
+      },
+      {
+        "date": "2026-07-05",
+        "day": "Sun",
+        "status": "planned",
+        "type": "Recovery",
+        "content": "Walk + Stretch",
+        "completed": false
+      }
+    ]
+  },
+  "append": {
+    "training_log": [],
+    "body_log": [],
+    "coach_journal": [
+      {
+        "date": "2026-07-03",
+        "change": "雨天户外跑 → 跑步机 Zone2",
+        "reason": "天气下雨；昨天已做高坡度；避免连续高坡度刺激",
+        "confidence": "High"
+      }
+    ]
+  }
+}

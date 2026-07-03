@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Coach Journal",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["date", "change", "reason", "confidence"],
+    "additionalProperties": false,
+    "properties": {
+      "date": { "type": "string" },
+      "change": { "type": "string" },
+      "reason": { "type": "string" },
+      "confidence": { "enum": ["High", "Medium", "Low"] }
+    }
+  }
+}

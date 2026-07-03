@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Coach Update Plan",
+  "type": "object",
+  "required": ["meta", "today", "reasons", "weekly_plan", "append"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["generated_by", "generated_at", "summary"],
+      "additionalProperties": true
+    },
+    "today": { "$ref": "state.schema.json#/properties/today" },
+    "reasons": { "$ref": "state.schema.json#/properties/reasons" },
+    "weekly_plan": {
+      "type": "object",
+      "required": ["week_label", "week_start", "week_end", "running_target_km", "strength_target", "long_run_target", "days"],
+      "additionalProperties": false,
+      "properties": {
+        "week_label": { "type": "string" },
+        "week_start": { "type": "string" },
+        "week_end": { "type": "string" },
+        "running_target_km": { "type": "number" },
+        "strength_target": { "type": "integer" },
+        "long_run_target": { "type": "integer" },
+        "days": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "items": {
+            "type": "object",
+            "required": ["date", "day", "status", "type", "content", "completed"],
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "append": {
+      "type": "object",
+      "required": ["training_log", "body_log", "coach_journal"],
+      "additionalProperties": false,
+      "properties": {
+        "training_log": { "type": "array" },
+        "body_log": { "type": "array" },
+        "coach_journal": { "type": "array" }
+      }
+    }
+  }
+}

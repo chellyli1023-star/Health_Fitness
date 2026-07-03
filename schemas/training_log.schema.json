@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Training Log",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["date", "training_type", "duration_min", "completed"],
+    "additionalProperties": true,
+    "properties": {
+      "date": { "type": "string" },
+      "training_type": { "type": "string" },
+      "duration_min": { "type": ["number", "null"] },
+      "distance_km": { "type": ["number", "null"] },
+      "pace": { "type": ["string", "null"] },
+      "heart_rate_avg": { "type": ["number", "null"] },
+      "RPE": { "type": ["number", "null"] },
+      "pain_score": { "type": ["number", "null"] },
+      "notes": { "type": "string" },
+      "completed": { "type": "boolean" }
+    }
+  }
+}

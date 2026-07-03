@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-07-03",
+    "change": "将雨天户外跑调整为跑步机Zone2",
+    "reason": "天气下雨；昨天已完成高坡度训练；今天避免连续高坡度刺激",
+    "confidence": "High"
+  },
+  {
+    "date": "2026-07-03",
+    "change": "修正本周计划日期错位，并更新跑量为10.65km",
+    "reason": "用户确认当前周计划整体提前了一天，需要按真实完成情况重新对齐周计划",
+    "confidence": "High"
+  },
+  {
+    "date": "2026-07-03",
+    "change": "Corrected Week 1 day alignment and regenerated Dashboard state",
+    "reason": "The displayed weekly plan was shifted by one day. User confirmed the corrected Week 1 schedule.",
+    "confidence": "High"
+  },
+  {
+    "date": "2026-07-03",
+    "change": "雨天户外跑 → 跑步机 Zone2",
+    "reason": "天气下雨；昨天已做高坡度；避免连续高坡度刺激",
+    "confidence": "High"
+  }
+]

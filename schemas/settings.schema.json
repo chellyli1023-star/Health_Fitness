@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Settings",
+  "type": "object",
+  "required": ["user_name", "race_date", "race_distance_km", "weekly_target_km", "preferred_theme", "preferred_update_time", "module"],
+  "additionalProperties": true,
+  "properties": {
+    "user_name": { "type": "string" },
+    "target_weight_kg": { "type": "number" },
+    "race_date": { "type": "string" },
+    "race_distance_km": { "type": "number" },
+    "weekly_target_km": { "type": "number" },
+    "preferred_theme": { "type": "string" },
+    "preferred_update_time": { "type": "string" },
+    "module": { "type": "string" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Body Log",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["date"],
+    "additionalProperties": true,
+    "properties": {
+      "date": { "type": "string" },
+      "weight_kg": { "type": ["number", "null"] },
+      "sleep_hours": { "type": ["number", "null"] },
+      "resting_hr": { "type": ["number", "null"] },
+      "fatigue": { "type": ["number", "null"] },
+      "knee_pain": { "type": ["number", "null"] },
+      "recovery_score": { "type": ["number", "null"] }
+    }
+  }
+}

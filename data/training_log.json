@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-06-30",
+    "training_type": "Strength",
+    "duration_min": 45,
+    "distance_km": null,
+    "pace": null,
+    "heart_rate_avg": null,
+    "RPE": 6,
+    "pain_score": 0,
+    "notes": "下肢力量，动作稳定",
+    "completed": true
+  },
+  {
+    "date": "2026-07-01",
+    "training_type": "Uphill",
+    "duration_min": 33,
+    "distance_km": 5,
+    "pace": null,
+    "heart_rate_avg": null,
+    "RPE": 5,
+    "pain_score": 0,
+    "notes": "坡度走完成，膝盖无痛",
+    "completed": true
+  },
+  {
+    "date": "2026-07-02",
+    "training_type": "Zone2",
+    "duration_min": 38,
+    "distance_km": 4.65,
+    "pace": "8:10/km",
+    "heart_rate_avg": null,
+    "RPE": 4,
+    "pain_score": 0,
+    "notes": "轻松完成",
+    "completed": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weekly Plan",
+  "type": "object",
+  "required": ["week_label", "week_start", "week_end", "running_target_km", "strength_target", "long_run_target", "days"],
+  "additionalProperties": false,
+  "properties": {
+    "week_label": { "type": "string" },
+    "week_start": { "type": "string" },
+    "week_end": { "type": "string" },
+    "running_target_km": { "type": "number" },
+    "strength_target": { "type": "integer" },
+    "long_run_target": { "type": "integer" },
+    "days": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "required": ["date", "day", "status", "type", "content", "completed"],
+        "additionalProperties": true,
+        "properties": {
+          "date": { "type": "string" },
+          "day": { "type": "string" },
+          "status": { "enum": ["completed", "planned", "empty", "adjusted", "warning"] },
+          "type": { "type": "string" },
+          "content": { "type": "string" },
+          "distance_km": { "type": "number" },
+          "duration_min": { "type": "number" },
+          "completed": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
