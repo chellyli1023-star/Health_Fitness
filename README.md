@@ -180,20 +180,22 @@ git push -u origin main
 
 ## GitHub Pages
 
-In GitHub:
+Recommended stable setup:
 
 1. Open repository `Settings`
 2. Open `Pages`
-3. Source: `Deploy from a branch`
-4. Branch: `main`
-5. Folder: `/root`
-6. Save
+3. Source: `GitHub Actions`
+4. Save if GitHub shows a save button
+5. Push to `main`
+6. Open the `Actions` tab and wait for `Deploy GitHub Pages` to turn green
 
 Public URL:
 
 ```text
-https://YOUR_USERNAME.github.io/Health_Fitness/dashboard/index.html
+https://YOUR_USERNAME.github.io/Health_Fitness/
 ```
+
+The root URL redirects to `dashboard/index.html`.
 
 This is HTTPS, static, and can be added to iPhone Home Screen.
 
