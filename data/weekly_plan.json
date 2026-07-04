@@ -52,18 +52,22 @@
     {
       "date": "2026-07-04",
       "day": "Sat",
-      "status": "planned",
-      "type": "Long Run",
-      "content": "7–8km",
-      "completed": false
+      "status": "adjusted",
+      "type": "Rest",
+      "content": "Rest（Weather）",
+      "completed": false,
+      "adjustment_type": "Postpone",
+      "reason": "Weather"
     },
     {
       "date": "2026-07-05",
       "day": "Sun",
       "status": "planned",
-      "type": "Recovery",
-      "content": "Walk + Stretch",
-      "completed": false
+      "type": "Long Run",
+      "content": "7–8km（顺延）",
+      "completed": false,
+      "distance_km": null,
+      "intensity": "Zone 2"
     }
   ]
 }

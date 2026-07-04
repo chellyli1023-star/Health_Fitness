@@ -25,5 +25,18 @@
     "fatigue": 2,
     "knee_pain": 0,
     "recovery_score": 88
+  },
+  {
+    "date": "2026-07-04",
+    "weight_kg": 73.5,
+    "sleep_hours": 7.5,
+    "resting_hr": null,
+    "fatigue": 2,
+    "knee_pain": 0,
+    "recovery_score": null,
+    "energy": 8,
+    "stress": "Normal",
+    "muscle_soreness": "后链轻微酸痛",
+    "other_symptoms": "None"
   }
 ]

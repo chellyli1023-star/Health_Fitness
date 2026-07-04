@@ -22,5 +22,12 @@
     "change": "雨天户外跑 → 跑步机 Zone2",
     "reason": "天气下雨；昨天已做高坡度；避免连续高坡度刺激",
     "confidence": "High"
+  },
+  {
+    "date": "2026-07-04",
+    "change": "Long Run 顺延一天（Postpone）",
+    "reason": "External Constraint（Weather）：持续降雨，不适合完成长距离跑；恢复状态正常，因此保持原计划7–8km，不降低训练量。",
+    "confidence": "High",
+    "adjustment_type": "Postpone"
   }
 ]

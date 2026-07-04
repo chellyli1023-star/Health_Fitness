@@ -16,6 +16,15 @@ Every morning before 9:00, the iPhone home-screen app should answer:
 2. Why?
 3. Am I on track this week?
 
+The daily operating goal is low interaction cost:
+
+1. User discusses training with GPT at night
+2. User says: 更新
+3. Codex updates the Dashboard
+4. The next morning, Dashboard and Daily Brief read the latest state directly
+
+The system does not use `tomorrow.md`. Tomorrow is a plan, not a fact. Plans belong in `data/state.json` and `data/weekly_plan.json`.
+
 ## Product Boundary
 
 Apple Health owns:
@@ -55,38 +64,30 @@ Then use Safari share button → Add to Home Screen.
 
 ## Project Structure
 
+V1 final core architecture:
+
 ```text
 Health_Fitness/
-├── dashboard/
-│   ├── index.html
-│   ├── style.css
-│   ├── app.js
-│   ├── manifest.json
-│   ├── service-worker.js
-│   └── icons/
+├── notes/
+│   └── project_context.md
+├── memory/
+│   └── memory.md
+├── current/
+│   └── today.md
+├── roadmap.md
+├── decision_log.md
 ├── data/
 │   ├── state.json
-│   ├── update_plan.json
 │   ├── weekly_plan.json
 │   ├── training_log.json
 │   ├── body_log.json
-│   ├── coach_journal.json
-│   └── settings.json
-├── schemas/
-│   ├── state.schema.json
-│   ├── update_plan.schema.json
-│   ├── weekly_plan.schema.json
-│   ├── training_log.schema.json
-│   ├── body_log.schema.json
-│   ├── coach_journal.schema.json
-│   └── settings.schema.json
+│   └── coach_journal.json
+├── dashboard/
 ├── scripts/
-│   └── apply_update_plan.js
-├── docs/
-│   └── architecture.md
-├── deploy.sh
 └── README.md
 ```
+
+Implementation support files such as `data/update_plan.json`, `data/settings.json`, `schemas/`, `docs/`, and `deploy.sh` may exist to keep the static app maintainable, but they are not additional product state sources.
 
 ## Data Rules
 
@@ -103,6 +104,95 @@ History files are append-only:
 - `data/coach_journal.json`
 
 Do not overwrite history.
+
+Facts live in:
+
+- `current/today.md`
+- `data/training_log.json`
+- `data/body_log.json`
+
+Plans live in:
+
+- `data/state.json`
+- `data/weekly_plan.json`
+
+`data/state.json` is the current system state. It stores the current training state, current week target, Dashboard display data, and the system-approved next training plan.
+
+`data/weekly_plan.json` stores the full current week plan. When GPT adjusts training, update this file.
+
+## Daily Working Context
+
+`current/today.md` is the daily working context shared by GPT and Codex.
+
+It is not history, not a database, and not the Dashboard. It is overwritten every day and only keeps today's working context.
+
+It represents facts that have already happened today plus current constraints. It does not store tomorrow's plan.
+
+All history belongs in append-only JSON files:
+
+- `data/training_log.json`
+- `data/body_log.json`
+- `data/coach_journal.json`
+
+`current/today.md` uses Markdown and contains:
+
+- Date
+- Race Countdown
+- Training Today
+- Recovery
+- Body Status
+- Current Constraints
+- Weekly Progress Snapshot
+- Coach Notes / Current AI Judgment
+
+## Daily Brief Input Order
+
+When generating a Daily Brief, Dashboard Update, or training plan, read files in this exact order:
+
+1. `notes/project_context.md`
+2. `memory/memory.md`
+3. `decision_log.md`
+4. `roadmap.md`
+5. `current/today.md`
+6. `data/state.json`
+7. `data/weekly_plan.json`
+8. `data/training_log.json`
+9. `data/body_log.json`
+10. `data/coach_journal.json`
+
+Do not change the read order.
+
+## Daily Brief Format
+
+GPT Daily Brief output:
+
+```text
+今天：
+
+训练日 / 恢复日 / 休息日
+
+内容：
+
+……
+
+原因：
+
+……
+
+本周进度：
+
+……
+
+Dashboard：
+
+需要更新 / 不需要更新
+
+如果需要更新：
+
+生成 🍐 AI Coach Dashboard Update。
+
+否则结束。
+```
 
 ## Update Workflow
 
@@ -133,13 +223,15 @@ Current script path:
 node scripts/apply_update_plan.js
 ```
 
+The current script uses `data/update_plan.json` as an execution staging file. That file is not a Dashboard data source and not a separate product state source.
+
 ## Responsibility Split
 
 GPT decides:
 
 - Today's completion status
 - Whether the plan should change
-- Tomorrow's training
+- The next training plan
 - Risk and recovery judgment
 - Reasons behind the plan
 
@@ -157,6 +249,8 @@ Dashboard displays:
 - Week plan
 - Week goals
 - Latest AI adjustment
+
+Dashboard never reads `current/today.md`, `data/training_log.json`, `data/body_log.json`, or `data/coach_journal.json` directly. Historical data is for GPT decision-making only.
 
 ## GitHub Repository Setup
 
@@ -242,11 +336,17 @@ User finishes training
 ↓
 User discusses with ChatGPT
 ↓
-ChatGPT outputs 🍐 AI Coach Dashboard Update
+ChatGPT updates current/today.md
 ↓
-User sends update to Codex
+ChatGPT outputs Daily Brief
+↓
+If user confirms: 更新
+↓
+Codex reads current/today.md
 ↓
 Codex updates JSON
+↓
+Codex refreshes Dashboard
 ↓
 Codex runs ./deploy.sh
 ↓

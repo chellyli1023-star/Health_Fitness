@@ -34,5 +34,20 @@
     "pain_score": 0,
     "notes": "轻松完成",
     "completed": true
+  },
+  {
+    "date": "2026-07-04",
+    "training_type": "Long Run",
+    "duration_min": 0,
+    "distance_km": 0,
+    "pace": null,
+    "heart_rate_avg": null,
+    "RPE": null,
+    "pain_score": 0,
+    "notes": "Original plan 7–8km Long Run canceled due to persistent rain. This is a Postpone, not a Reduce. Plan shifts to 2026-07-05.",
+    "completed": false,
+    "status": "Rest",
+    "adjustment_type": "Postpone",
+    "reason": "Weather"
   }
 ]

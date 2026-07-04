@@ -134,6 +134,7 @@ function buildState({ currentState, settings, weeklyPlan, coachJournal, updatePl
       progress: weekStats,
       days: weeklyPlan.days.map(normalizeStateDay)
     },
+    next_training: updatePlan.next_training || currentState.next_training || null,
     last_ai_adjustment: latest(coachJournal) || currentState.last_ai_adjustment || null,
     last_updated: timestamp
   };

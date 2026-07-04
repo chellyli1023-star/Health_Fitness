@@ -72,6 +72,18 @@
         }
       }
     },
+    "next_training": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string" },
+        "distance": { "type": "string" },
+        "intensity": { "type": "string" },
+        "time": { "type": "string" },
+        "adjustment_type": { "type": "string" },
+        "reason": { "type": "string" }
+      }
+    },
     "last_ai_adjustment": {
       "type": "object",
       "required": ["date", "change", "reason", "confidence"],

@@ -10,8 +10,10 @@
       "required": ["generated_by", "generated_at", "summary"],
       "additionalProperties": true
     },
+    "race": { "$ref": "state.schema.json#/properties/race" },
     "today": { "$ref": "state.schema.json#/properties/today" },
     "reasons": { "$ref": "state.schema.json#/properties/reasons" },
+    "next_training": { "$ref": "state.schema.json#/properties/next_training" },
     "weekly_plan": {
       "type": "object",
       "required": ["week_label", "week_start", "week_end", "running_target_km", "strength_target", "long_run_target", "days"],
@@ -44,6 +46,7 @@
         "body_log": { "type": "array" },
         "coach_journal": { "type": "array" }
       }
-    }
+    },
+    "last_updated": { "type": "string" }
   }
 }
