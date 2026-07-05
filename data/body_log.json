@@ -38,5 +38,21 @@
     "stress": "Normal",
     "muscle_soreness": "后链轻微酸痛",
     "other_symptoms": "None"
+  },
+  {
+    "date": "2026-07-05",
+    "weight_kg": 73.5,
+    "sleep_hours": 7.5,
+    "resting_hr": null,
+    "fatigue": null,
+    "knee_pain": 1,
+    "recovery_score": null,
+    "RPE": 6,
+    "recovery": "Good",
+    "muscle_soreness": {
+      "calves": 2,
+      "glutes": 2
+    },
+    "notes": "轻微发紧，无明显疼痛。"
   }
 ]

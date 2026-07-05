@@ -49,5 +49,29 @@
     "status": "Rest",
     "adjustment_type": "Postpone",
     "reason": "Weather"
+  },
+  {
+    "date": "2026-07-05",
+    "training_type": "Long Run",
+    "duration_min": 63.58,
+    "duration": "1:03:35",
+    "distance_km": 7.6,
+    "pace": "8'22\"/km",
+    "heart_rate_avg": 142,
+    "cadence_spm": 161,
+    "RPE": 6,
+    "pain_score": 1,
+    "notes": "Indoor treadmill long run completed after weather-related postponement. Original outdoor long run moved indoors due to rain. External Constraint（Weather）→ Postpone; training target was not reduced. Knee felt slightly tight without clear pain.",
+    "completed": true,
+    "status": "Completed",
+    "location": "Indoor Treadmill",
+    "recovery": "Good",
+    "knee_pain": 1,
+    "muscle_soreness": {
+      "calves": 2,
+      "glutes": 2
+    },
+    "adjustment_type": "Postpone",
+    "reason": "Weather"
   }
 ]

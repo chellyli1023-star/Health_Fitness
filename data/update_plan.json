@@ -1,156 +1,175 @@
 {
   "meta": {
     "generated_by": "GPT",
-    "generated_at": "2026-07-04T21:00:00+08:00",
-    "summary": "Postpone Long Run by one day due to persistent rain; no training-load reduction"
+    "generated_at": "2026-07-05T21:00:00+08:00",
+    "summary": "Week 1 completed; start Week 2 with controlled volume increase and knee monitoring"
   },
   "race": {
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 71
+    "days_remaining": 69
   },
   "today": {
-    "date": "2026-07-04",
-    "status": "rest",
-    "type": "Rest",
-    "content": "Rest（Weather）",
-    "duration_min": 0,
+    "date": "2026-07-06",
+    "status": "training",
+    "type": "Upper Body + Core",
+    "content": "Upper Body + Core 45–60min",
+    "duration_min": 60,
     "recovery": "Good",
     "reason": [
-      "持续降雨，不适合完成长距离跑。",
-      "今天未完成训练并非恢复问题，而是天气原因。",
-      "本次是顺延（Postpone），不是降低训练量（Reduce）。"
+      "Week 1 已顺利完成，长距离后恢复总体良好。",
+      "今日重点恢复、核心稳定，并观察膝盖反应。",
+      "暂不增加速度训练，先验证 Week 2 训练耐受。"
     ]
   },
   "reasons": [
-    "持续降雨，不适合完成长距离跑。",
-    "恢复状态正常，膝盖无疼痛。",
-    "Long Run 顺延一天，本周目标保持不变。"
+    "Week 1 已顺利完成，长距离后恢复总体良好。",
+    "今日重点恢复、核心稳定，并观察膝盖反应。",
+    "暂不增加速度训练，先验证 Week 2 训练耐受。"
   ],
   "next_training": {
-    "type": "Long Run",
-    "distance": "7–8 km",
-    "intensity": "Zone 2",
-    "time": "Tomorrow Afternoon",
-    "adjustment_type": "Postpone",
-    "reason": "Weather"
+    "type": "Upper Body + Core",
+    "distance": "",
+    "intensity": "Recovery + Core Stability",
+    "time": "45–60 min",
+    "adjustment_type": "Week 2 Start",
+    "reason": "恢复、核心稳定、观察膝盖"
   },
   "weekly_plan": {
-    "week_label": "Week 1",
-    "week_start": "2026-06-29",
-    "week_end": "2026-07-05",
-    "running_target_km": 18,
+    "week_label": "Week 2",
+    "week_start": "2026-07-06",
+    "week_end": "2026-07-12",
+    "running_target_km": 21,
     "strength_target": 2,
     "long_run_target": 1,
     "days": [
       {
-        "date": "2026-06-29",
+        "date": "2026-07-06",
         "day": "Mon",
-        "status": "completed",
-        "type": "Zone2",
-        "content": "6km",
-        "distance_km": 6,
-        "completed": true
+        "status": "planned",
+        "type": "Upper Body + Core",
+        "content": "45–60min",
+        "duration_min": 60,
+        "completed": false
       },
       {
-        "date": "2026-06-30",
+        "date": "2026-07-07",
         "day": "Tue",
+        "status": "planned",
+        "type": "Zone2",
+        "content": "5km",
+        "distance_km": 5,
+        "completed": false
+      },
+      {
+        "date": "2026-07-08",
+        "day": "Wed",
+        "status": "planned",
+        "type": "Strength",
+        "content": "Lower Body",
+        "duration_min": 60,
+        "completed": false,
+        "focus": [
+          "臀中肌",
+          "腘绳肌",
+          "单腿稳定"
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "day": "Thu",
+        "status": "planned",
+        "type": "Recovery",
+        "content": "30–40min",
+        "duration_min": 40,
+        "completed": false,
+        "options": [
+          "坡度走",
+          "快走"
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "day": "Fri",
+        "status": "planned",
+        "type": "Zone2",
+        "content": "6km + 4×30s",
+        "distance_km": 6,
+        "completed": false
+      },
+      {
+        "date": "2026-07-11",
+        "day": "Sat",
         "status": "empty",
         "type": "Rest",
         "content": "Rest",
         "completed": false
       },
       {
-        "date": "2026-07-01",
-        "day": "Wed",
-        "status": "completed",
-        "type": "Strength",
-        "content": "Lower Body",
-        "completed": true
-      },
-      {
-        "date": "2026-07-02",
-        "day": "Thu",
-        "status": "completed",
-        "type": "Uphill",
-        "content": "33min",
-        "duration_min": 33,
-        "completed": true
-      },
-      {
-        "date": "2026-07-03",
-        "day": "Fri",
-        "status": "completed",
-        "type": "Zone2",
-        "content": "4.65km",
-        "distance_km": 4.65,
-        "completed": true
-      },
-      {
-        "date": "2026-07-04",
-        "day": "Sat",
-        "status": "adjusted",
-        "type": "Rest",
-        "content": "Rest（Weather）",
-        "completed": false,
-        "adjustment_type": "Postpone",
-        "reason": "Weather"
-      },
-      {
-        "date": "2026-07-05",
+        "date": "2026-07-12",
         "day": "Sun",
         "status": "planned",
         "type": "Long Run",
-        "content": "7–8km（顺延）",
-        "completed": false,
-        "distance_km": null,
-        "intensity": "Zone 2"
+        "content": "9km Zone2",
+        "distance_km": 9,
+        "completed": false
       }
     ]
   },
   "append": {
     "training_log": [
       {
-        "date": "2026-07-04",
+        "date": "2026-07-05",
         "training_type": "Long Run",
-        "duration_min": 0,
-        "distance_km": 0,
-        "pace": null,
-        "heart_rate_avg": null,
-        "RPE": null,
-        "pain_score": 0,
-        "notes": "Original plan 7–8km Long Run canceled due to persistent rain. This is a Postpone, not a Reduce. Plan shifts to 2026-07-05.",
-        "completed": false,
-        "status": "Rest",
+        "duration_min": 63.58,
+        "duration": "1:03:35",
+        "distance_km": 7.6,
+        "pace": "8'22\"/km",
+        "heart_rate_avg": 142,
+        "cadence_spm": 161,
+        "RPE": 6,
+        "pain_score": 1,
+        "notes": "Indoor treadmill long run completed after weather-related postponement. Original outdoor long run moved indoors due to rain. External Constraint（Weather）→ Postpone; training target was not reduced. Knee felt slightly tight without clear pain.",
+        "completed": true,
+        "status": "Completed",
+        "location": "Indoor Treadmill",
+        "recovery": "Good",
+        "knee_pain": 1,
+        "muscle_soreness": {
+          "calves": 2,
+          "glutes": 2
+        },
         "adjustment_type": "Postpone",
         "reason": "Weather"
       }
     ],
     "body_log": [
       {
-        "date": "2026-07-04",
+        "date": "2026-07-05",
         "weight_kg": 73.5,
         "sleep_hours": 7.5,
         "resting_hr": null,
-        "fatigue": 2,
-        "knee_pain": 0,
+        "fatigue": null,
+        "knee_pain": 1,
         "recovery_score": null,
-        "energy": 8,
-        "stress": "Normal",
-        "muscle_soreness": "后链轻微酸痛",
-        "other_symptoms": "None"
+        "RPE": 6,
+        "recovery": "Good",
+        "muscle_soreness": {
+          "calves": 2,
+          "glutes": 2
+        },
+        "notes": "轻微发紧，无明显疼痛。"
       }
     ],
     "coach_journal": [
       {
-        "date": "2026-07-04",
-        "change": "Long Run 顺延一天（Postpone）",
-        "reason": "External Constraint（Weather）：持续降雨，不适合完成长距离跑；恢复状态正常，因此保持原计划7–8km，不降低训练量。",
-        "confidence": "High",
-        "adjustment_type": "Postpone"
+        "date": "2026-07-05",
+        "change": "Week 1 Review + Week 2 Planning",
+        "reason": "Week 1 完成质量良好；恢复情况符合预期；Week 2 小幅增加训练量，目标跑量20–21km；继续观察膝盖；当前不建议增加速度训练。",
+        "confidence": "High"
       }
     ]
   },
-  "last_updated": "2026-07-04T21:00:00+08:00"
+  "last_updated": "2026-07-05T21:00:00+08:00"
 }

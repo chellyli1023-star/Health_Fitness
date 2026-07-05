@@ -3,32 +3,32 @@
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 71
+    "days_remaining": 69
   },
   "today": {
-    "date": "2026-07-04",
-    "status": "rest",
-    "type": "Rest",
-    "content": "Rest（Weather）",
-    "duration_min": 0,
+    "date": "2026-07-06",
+    "status": "training",
+    "type": "Upper Body + Core",
+    "content": "Upper Body + Core 45–60min",
+    "duration_min": 60,
     "recovery": "Good",
     "reason": [
-      "持续降雨，不适合完成长距离跑。",
-      "今天未完成训练并非恢复问题，而是天气原因。",
-      "本次是顺延（Postpone），不是降低训练量（Reduce）。"
+      "Week 1 已顺利完成，长距离后恢复总体良好。",
+      "今日重点恢复、核心稳定，并观察膝盖反应。",
+      "暂不增加速度训练，先验证 Week 2 训练耐受。"
     ]
   },
   "reasons": [
-    "持续降雨，不适合完成长距离跑。",
-    "恢复状态正常，膝盖无疼痛。",
-    "Long Run 顺延一天，本周目标保持不变。"
+    "Week 1 已顺利完成，长距离后恢复总体良好。",
+    "今日重点恢复、核心稳定，并观察膝盖反应。",
+    "暂不增加速度训练，先验证 Week 2 训练耐受。"
   ],
   "week": {
-    "label": "Week 1",
+    "label": "Week 2",
     "progress": {
-      "running_done_km": 10.65,
-      "running_target_km": 18,
-      "strength_done": 1,
+      "running_done_km": 0,
+      "running_target_km": 21,
+      "strength_done": 0,
       "strength_target": 2,
       "long_run_done": 0,
       "long_run_target": 1
@@ -36,62 +36,61 @@
     "days": [
       {
         "day": "Mon",
-        "status": "completed",
-        "type": "Zone2",
-        "content": "6km"
+        "status": "planned",
+        "type": "Upper Body + Core",
+        "content": "45–60min"
       },
       {
         "day": "Tue",
-        "status": "empty",
-        "type": "Rest",
-        "content": "Rest"
+        "status": "planned",
+        "type": "Zone2",
+        "content": "5km"
       },
       {
         "day": "Wed",
-        "status": "completed",
+        "status": "planned",
         "type": "Strength",
         "content": "Lower Body"
       },
       {
         "day": "Thu",
-        "status": "completed",
-        "type": "Uphill",
-        "content": "33min"
+        "status": "planned",
+        "type": "Recovery",
+        "content": "30–40min"
       },
       {
         "day": "Fri",
-        "status": "completed",
+        "status": "planned",
         "type": "Zone2",
-        "content": "4.65km"
+        "content": "6km + 4×30s"
       },
       {
         "day": "Sat",
-        "status": "adjusted",
+        "status": "empty",
         "type": "Rest",
-        "content": "Rest（Weather）"
+        "content": "Rest"
       },
       {
         "day": "Sun",
         "status": "planned",
         "type": "Long Run",
-        "content": "7–8km（顺延）"
+        "content": "9km Zone2"
       }
     ]
   },
   "next_training": {
-    "type": "Long Run",
-    "distance": "7–8 km",
-    "intensity": "Zone 2",
-    "time": "Tomorrow Afternoon",
-    "adjustment_type": "Postpone",
-    "reason": "Weather"
+    "type": "Upper Body + Core",
+    "distance": "",
+    "intensity": "Recovery + Core Stability",
+    "time": "45–60 min",
+    "adjustment_type": "Week 2 Start",
+    "reason": "恢复、核心稳定、观察膝盖"
   },
   "last_ai_adjustment": {
-    "date": "2026-07-04",
-    "change": "Long Run 顺延一天（Postpone）",
-    "reason": "External Constraint（Weather）：持续降雨，不适合完成长距离跑；恢复状态正常，因此保持原计划7–8km，不降低训练量。",
-    "confidence": "High",
-    "adjustment_type": "Postpone"
+    "date": "2026-07-05",
+    "change": "Week 1 Review + Week 2 Planning",
+    "reason": "Week 1 完成质量良好；恢复情况符合预期；Week 2 小幅增加训练量，目标跑量20–21km；继续观察膝盖；当前不建议增加速度训练。",
+    "confidence": "High"
   },
-  "last_updated": "2026-07-04T21:00:00+08:00"
+  "last_updated": "2026-07-05T21:00:00+08:00"
 }

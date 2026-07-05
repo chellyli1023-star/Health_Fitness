@@ -6,3 +6,6 @@ node_modules/
 .env.*
 dist/
 build/
+memory/
+notes/
+roadmap.md
