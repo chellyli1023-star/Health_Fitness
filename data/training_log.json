@@ -73,5 +73,70 @@
     },
     "adjustment_type": "Postpone",
     "reason": "Weather"
+  },
+  {
+    "date": "2026-07-06",
+    "training_type": "Upper Body + Core",
+    "program": "Upper Body D1",
+    "duration_min": 44,
+    "distance_km": null,
+    "pace": null,
+    "heart_rate_avg": 99,
+    "calories_estimated": 175,
+    "total_volume_kg": 3340,
+    "RPE": null,
+    "pain_score": 2,
+    "notes": "Completed Upper Body D1. No worsening after upper-body session. Seated Cable Row skipped. Bird Dog completed 12 reps.",
+    "completed": true,
+    "exercises": [
+      {
+        "name": "Dumbbell Shoulder Press",
+        "sets": [
+          "10 kg × 12",
+          "10 kg × 10",
+          "10 kg × 10",
+          "10 kg × 10"
+        ]
+      },
+      {
+        "name": "Wide Grip Lat Pulldown",
+        "sets": [
+          "25 kg × 12 × 4"
+        ]
+      },
+      {
+        "name": "Lateral Raise",
+        "sets": [
+          "2 kg × 22",
+          "2 kg × 22",
+          "2 kg × 18",
+          "2 kg × 18"
+        ]
+      },
+      {
+        "name": "One-arm Dumbbell Row",
+        "sets": [
+          "12 kg × 10 × 3"
+        ]
+      },
+      {
+        "name": "Cable Triceps Pushdown",
+        "sets": [
+          "20 kg × 15 × 4"
+        ]
+      },
+      {
+        "name": "Seated Cable Row",
+        "sets": [
+          "Skipped"
+        ]
+      },
+      {
+        "name": "Bird Dog",
+        "sets": [
+          "12 reps"
+        ]
+      }
+    ]
   }
 ]

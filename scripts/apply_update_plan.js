@@ -90,7 +90,8 @@ function computeWeekStats(weeklyPlan) {
   const runningDone = completedDays
     .filter((day) => isRunningType(day.type))
     .reduce((sum, day) => sum + parseKm(day.distance_km ?? day.content), 0);
-  const strengthDone = completedDays.filter((day) => day.type === "Strength").length;
+  const strengthTypes = ["Strength", "Upper Body + Core"];
+  const strengthDone = completedDays.filter((day) => strengthTypes.includes(day.type)).length;
   const longRunDone = completedDays.filter((day) => day.type === "Long Run").length;
 
   return {

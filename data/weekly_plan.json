@@ -9,11 +9,14 @@
     {
       "date": "2026-07-06",
       "day": "Mon",
-      "status": "planned",
+      "status": "completed",
       "type": "Upper Body + Core",
-      "content": "45–60min",
-      "duration_min": 60,
-      "completed": false
+      "content": "Upper Body D1",
+      "duration_min": 44,
+      "completed": true,
+      "heart_rate_avg": 99,
+      "calories_estimated": 175,
+      "total_volume_kg": 3340
     },
     {
       "date": "2026-07-07",

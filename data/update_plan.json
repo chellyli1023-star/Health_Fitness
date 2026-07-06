@@ -1,40 +1,40 @@
 {
   "meta": {
     "generated_by": "GPT",
-    "generated_at": "2026-07-05T21:00:00+08:00",
-    "summary": "Week 1 completed; start Week 2 with controlled volume increase and knee monitoring"
+    "generated_at": "2026-07-06T21:30:00+08:00",
+    "summary": "Completed Upper Body D1; keep Tuesday Zone2 Run 5km"
   },
   "race": {
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 69
+    "days_remaining": 68
   },
   "today": {
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "status": "training",
-    "type": "Upper Body + Core",
-    "content": "Upper Body + Core 45–60min",
-    "duration_min": 60,
-    "recovery": "Good",
+    "type": "Zone2 Run",
+    "content": "Zone2 Run 5km",
+    "duration_min": 40,
+    "recovery": "Caution",
     "reason": [
-      "Week 1 已顺利完成，长距离后恢复总体良好。",
-      "今日重点恢复、核心稳定，并观察膝盖反应。",
-      "暂不增加速度训练，先验证 Week 2 训练耐受。"
+      "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
+      "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
+      "睡眠较差，今天保持 Zone2，不追求配速。"
     ]
   },
   "reasons": [
-    "Week 1 已顺利完成，长距离后恢复总体良好。",
-    "今日重点恢复、核心稳定，并观察膝盖反应。",
-    "暂不增加速度训练，先验证 Week 2 训练耐受。"
+    "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
+    "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
+    "睡眠较差，今天保持 Zone2，不追求配速。"
   ],
   "next_training": {
-    "type": "Upper Body + Core",
-    "distance": "",
-    "intensity": "Recovery + Core Stability",
-    "time": "45–60 min",
-    "adjustment_type": "Week 2 Start",
-    "reason": "恢复、核心稳定、观察膝盖"
+    "type": "Zone2 Run",
+    "distance": "5 km",
+    "intensity": "Zone 2",
+    "time": "40 min",
+    "adjustment_type": "Continue Plan",
+    "reason": "继续 Week 2 计划，观察膝盖与睡眠恢复"
   },
   "weekly_plan": {
     "week_label": "Week 2",
@@ -47,11 +47,14 @@
       {
         "date": "2026-07-06",
         "day": "Mon",
-        "status": "planned",
+        "status": "completed",
         "type": "Upper Body + Core",
-        "content": "45–60min",
-        "duration_min": 60,
-        "completed": false
+        "content": "Upper Body D1",
+        "duration_min": 44,
+        "completed": true,
+        "heart_rate_avg": 99,
+        "calories_estimated": 175,
+        "total_volume_kg": 3340
       },
       {
         "date": "2026-07-07",
@@ -120,56 +123,85 @@
   "append": {
     "training_log": [
       {
-        "date": "2026-07-05",
-        "training_type": "Long Run",
-        "duration_min": 63.58,
-        "duration": "1:03:35",
-        "distance_km": 7.6,
-        "pace": "8'22\"/km",
-        "heart_rate_avg": 142,
-        "cadence_spm": 161,
-        "RPE": 6,
-        "pain_score": 1,
-        "notes": "Indoor treadmill long run completed after weather-related postponement. Original outdoor long run moved indoors due to rain. External Constraint（Weather）→ Postpone; training target was not reduced. Knee felt slightly tight without clear pain.",
+        "date": "2026-07-06",
+        "training_type": "Upper Body + Core",
+        "program": "Upper Body D1",
+        "duration_min": 44,
+        "distance_km": null,
+        "pace": null,
+        "heart_rate_avg": 99,
+        "calories_estimated": 175,
+        "total_volume_kg": 3340,
+        "RPE": null,
+        "pain_score": 2,
+        "notes": "Completed Upper Body D1. No worsening after upper-body session. Seated Cable Row skipped. Bird Dog completed 12 reps.",
         "completed": true,
-        "status": "Completed",
-        "location": "Indoor Treadmill",
-        "recovery": "Good",
-        "knee_pain": 1,
-        "muscle_soreness": {
-          "calves": 2,
-          "glutes": 2
-        },
-        "adjustment_type": "Postpone",
-        "reason": "Weather"
+        "exercises": [
+          {
+            "name": "Dumbbell Shoulder Press",
+            "sets": [
+              "10 kg × 12",
+              "10 kg × 10",
+              "10 kg × 10",
+              "10 kg × 10"
+            ]
+          },
+          {
+            "name": "Wide Grip Lat Pulldown",
+            "sets": [
+              "25 kg × 12 × 4"
+            ]
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": [
+              "2 kg × 22",
+              "2 kg × 22",
+              "2 kg × 18",
+              "2 kg × 18"
+            ]
+          },
+          {
+            "name": "One-arm Dumbbell Row",
+            "sets": [
+              "12 kg × 10 × 3"
+            ]
+          },
+          {
+            "name": "Cable Triceps Pushdown",
+            "sets": [
+              "20 kg × 15 × 4"
+            ]
+          },
+          {
+            "name": "Seated Cable Row",
+            "sets": [
+              "Skipped"
+            ]
+          },
+          {
+            "name": "Bird Dog",
+            "sets": [
+              "12 reps"
+            ]
+          }
+        ]
       }
     ],
     "body_log": [
       {
-        "date": "2026-07-05",
-        "weight_kg": 73.5,
-        "sleep_hours": 7.5,
+        "date": "2026-07-06",
+        "weight_kg": null,
+        "sleep_hours": null,
         "resting_hr": null,
-        "fatigue": null,
-        "knee_pain": 1,
+        "fatigue": "Sleepy throughout the day after waking around 03:00–04:00.",
+        "knee_pain": 2,
         "recovery_score": null,
-        "RPE": 6,
-        "recovery": "Good",
-        "muscle_soreness": {
-          "calves": 2,
-          "glutes": 2
-        },
-        "notes": "轻微发紧，无明显疼痛。"
-      }
-    ],
-    "coach_journal": [
-      {
-        "date": "2026-07-05",
-        "change": "Week 1 Review + Week 2 Planning",
-        "reason": "Week 1 完成质量良好；恢复情况符合预期；Week 2 小幅增加训练量，目标跑量20–21km；继续观察膝盖；当前不建议增加速度训练。",
-        "confidence": "High"
+        "energy": "Lower than normal because of poor sleep; otherwise felt fine.",
+        "recovery": "Caution",
+        "notes": "Walking normal. Noticeable discomfort when going upstairs/downstairs. Not painful. No worsening after upper-body session. Weight not recorded; measure tomorrow morning."
       }
     ]
   },
-  "last_updated": "2026-07-05T21:00:00+08:00"
+  "last_updated": "2026-07-06T21:30:00+08:00"
 }

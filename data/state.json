@@ -3,32 +3,32 @@
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 69
+    "days_remaining": 68
   },
   "today": {
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "status": "training",
-    "type": "Upper Body + Core",
-    "content": "Upper Body + Core 45–60min",
-    "duration_min": 60,
-    "recovery": "Good",
+    "type": "Zone2 Run",
+    "content": "Zone2 Run 5km",
+    "duration_min": 40,
+    "recovery": "Caution",
     "reason": [
-      "Week 1 已顺利完成，长距离后恢复总体良好。",
-      "今日重点恢复、核心稳定，并观察膝盖反应。",
-      "暂不增加速度训练，先验证 Week 2 训练耐受。"
+      "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
+      "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
+      "睡眠较差，今天保持 Zone2，不追求配速。"
     ]
   },
   "reasons": [
-    "Week 1 已顺利完成，长距离后恢复总体良好。",
-    "今日重点恢复、核心稳定，并观察膝盖反应。",
-    "暂不增加速度训练，先验证 Week 2 训练耐受。"
+    "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
+    "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
+    "睡眠较差，今天保持 Zone2，不追求配速。"
   ],
   "week": {
     "label": "Week 2",
     "progress": {
       "running_done_km": 0,
       "running_target_km": 21,
-      "strength_done": 0,
+      "strength_done": 1,
       "strength_target": 2,
       "long_run_done": 0,
       "long_run_target": 1
@@ -36,9 +36,9 @@
     "days": [
       {
         "day": "Mon",
-        "status": "planned",
+        "status": "completed",
         "type": "Upper Body + Core",
-        "content": "45–60min"
+        "content": "Upper Body D1"
       },
       {
         "day": "Tue",
@@ -79,12 +79,12 @@
     ]
   },
   "next_training": {
-    "type": "Upper Body + Core",
-    "distance": "",
-    "intensity": "Recovery + Core Stability",
-    "time": "45–60 min",
-    "adjustment_type": "Week 2 Start",
-    "reason": "恢复、核心稳定、观察膝盖"
+    "type": "Zone2 Run",
+    "distance": "5 km",
+    "intensity": "Zone 2",
+    "time": "40 min",
+    "adjustment_type": "Continue Plan",
+    "reason": "继续 Week 2 计划，观察膝盖与睡眠恢复"
   },
   "last_ai_adjustment": {
     "date": "2026-07-05",
@@ -92,5 +92,5 @@
     "reason": "Week 1 完成质量良好；恢复情况符合预期；Week 2 小幅增加训练量，目标跑量20–21km；继续观察膝盖；当前不建议增加速度训练。",
     "confidence": "High"
   },
-  "last_updated": "2026-07-05T21:00:00+08:00"
+  "last_updated": "2026-07-06T21:30:00+08:00"
 }

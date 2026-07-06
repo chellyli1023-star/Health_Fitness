@@ -54,5 +54,17 @@
       "glutes": 2
     },
     "notes": "轻微发紧，无明显疼痛。"
+  },
+  {
+    "date": "2026-07-06",
+    "weight_kg": null,
+    "sleep_hours": null,
+    "resting_hr": null,
+    "fatigue": "Sleepy throughout the day after waking around 03:00–04:00.",
+    "knee_pain": 2,
+    "recovery_score": null,
+    "energy": "Lower than normal because of poor sleep; otherwise felt fine.",
+    "recovery": "Caution",
+    "notes": "Walking normal. Noticeable discomfort when going upstairs/downstairs. Not painful. No worsening after upper-body session. Weight not recorded; measure tomorrow morning."
   }
 ]

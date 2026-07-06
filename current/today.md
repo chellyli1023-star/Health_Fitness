@@ -2,23 +2,7 @@
 
 Date
 
-2026-07-05 (Sunday)
-
----
-
-## Race
-
-Target Event
-
-太舞崇礼25K
-
-Race Date
-
-2026-09-13
-
-Days Remaining
-
-70
+2026-07-06 (Monday)
 
 ---
 
@@ -30,136 +14,131 @@ Completed
 
 Training
 
-Long Run（Indoor Treadmill）
-
-Reason
-
-原计划户外长距离。因降雨改为跑步机完成。
-
-Constraint
-
-External Constraint（Weather）
-
-Adjustment
-
-Postpone
-
-Training Target
-
-未降低训练目标
-
-Distance
-
-7.60 km
+Upper Body D1
 
 Duration
 
-1:03:35
-
-Average Pace
-
-8'22"/km
+44 min
 
 Average HR
 
-142 bpm
+99 bpm
 
-Cadence
+Estimated Calories
 
-161 spm
+175 kcal
 
-RPE (1–10)
+Total Volume
 
-6 / 10
+3340 kg
+
+---
+
+## Exercises
+
+Dumbbell Shoulder Press
+
+- 10 kg × 12
+- 10 kg × 10
+- 10 kg × 10
+- 10 kg × 10
+
+Wide Grip Lat Pulldown
+
+- 25 kg × 12 × 4
+
+Lateral Raise
+
+- 2 kg × 22
+- 2 kg × 22
+- 2 kg × 18
+- 2 kg × 18
+
+One-arm Dumbbell Row
+
+- 12 kg × 10 × 3
+
+Cable Triceps Pushdown
+
+- 20 kg × 15 × 4
+
+Seated Cable Row
+
+- Skipped
+
+Bird Dog
+
+- 12 reps
 
 ---
 
 ## Recovery
 
-Recovery
-
-Good
-
 Weight
 
-73.5 kg
+Not recorded. Measure tomorrow morning.
 
 Sleep
 
-7.5 h
+Woke up around 03:00–04:00.
 
-Knee Pain
+Felt sleepy throughout the day.
 
-1 / 10
+Energy
+
+Lower than normal because of poor sleep.
+
+Otherwise felt fine.
+
+---
+
+## Knee Status
+
+Pain Score
+
+2 / 10
 
 Description
 
-轻微发紧。无明显疼痛。
+Walking is normal.
 
-Muscle Soreness
+Noticeable discomfort when going upstairs/downstairs.
 
-Calves 2 / 10
+Not painful.
 
-Glutes 2 / 10
+No worsening after today's upper-body session.
 
----
+Other Pain
 
-## AI Assessment
-
-训练顺利完成。
-
-恢复总体良好。
-
-膝盖仅轻微发紧。
-
-属于可接受训练反应。
-
-继续观察即可。
+None reported.
 
 ---
 
-## Week 1 Review
+## Assessment
 
-Running
+Current recovery trend remains positive.
 
-18.25 km
+Knee symptoms continue to improve.
 
-Strength
+Still not ready for aggressive return-to-run.
 
-1 / 2
+Continue avoiding impact loading if stair discomfort worsens.
 
-Long Run
+Recovery priority:
 
-1 / 1
-
-Recovery
-
-Good
-
-Risk
-
-长距离后膝盖轻微发紧（1/10）。未影响日常活动。
-
-Overall
-
-成功完成 Week 1。达到建立训练节奏目标。可以进入 Week 2。
-
-Confidence
-
-High
+- Improve sleep quality tonight.
+- Monitor morning knee status tomorrow.
 
 ---
 
-## Tomorrow Plan
+## Tomorrow
 
-Upper Body + Core
+Plan
 
-45–60 min
+Zone2 Run
 
-Focus
+5 km
 
-恢复
+Decision checkpoint:
 
-核心稳定
-
-观察膝盖
+Record morning body weight, morning knee pain score, sleep quality, and training completion.
