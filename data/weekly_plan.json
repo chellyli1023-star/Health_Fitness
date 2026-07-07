@@ -21,24 +21,28 @@
     {
       "date": "2026-07-07",
       "day": "Tue",
-      "status": "planned",
+      "status": "completed",
       "type": "Zone2",
-      "content": "5km",
+      "content": "5km + strides",
       "distance_km": 5,
-      "completed": false
+      "duration_min": 46.23,
+      "completed": true,
+      "pace": "9'14\"/km",
+      "heart_rate_avg": 137,
+      "cadence_spm": 151
     },
     {
       "date": "2026-07-08",
       "day": "Wed",
       "status": "planned",
-      "type": "Strength",
-      "content": "Lower Body",
+      "type": "Upper Body + Core",
+      "content": "45–60min",
       "duration_min": 60,
       "completed": false,
       "focus": [
-        "臀中肌",
-        "腘绳肌",
-        "单腿稳定"
+        "核心稳定",
+        "上肢推拉力量",
+        "肩胛稳定"
       ]
     },
     {

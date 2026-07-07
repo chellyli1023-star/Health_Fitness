@@ -66,5 +66,23 @@
     "energy": "Lower than normal because of poor sleep; otherwise felt fine.",
     "recovery": "Caution",
     "notes": "Walking normal. Noticeable discomfort when going upstairs/downstairs. Not painful. No worsening after upper-body session. Weight not recorded; measure tomorrow morning."
+  },
+  {
+    "date": "2026-07-07",
+    "weight_kg": 72.5,
+    "sleep_hours": null,
+    "resting_hr": null,
+    "fatigue": "Slight fatigue. Sleep quality average due to repeated waking from itching.",
+    "knee_pain": 0,
+    "recovery_score": null,
+    "RPE": 2.5,
+    "recovery": "Good",
+    "energy": "Overall good with slight fatigue.",
+    "muscle_soreness": {
+      "calves": 2,
+      "glutes": 2
+    },
+    "other_symptoms": "None",
+    "notes": "Main recovery limiter is sleep quality, not training load."
   }
 ]

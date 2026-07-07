@@ -1,40 +1,40 @@
 {
   "meta": {
     "generated_by": "GPT",
-    "generated_at": "2026-07-06T21:30:00+08:00",
-    "summary": "Completed Upper Body D1; keep Tuesday Zone2 Run 5km"
+    "generated_at": "2026-07-07T21:30:00+08:00",
+    "summary": "Completed Zone 2 Run 5km with strides; update tomorrow to Upper Body + Core"
   },
   "race": {
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 68
+    "days_remaining": 67
   },
   "today": {
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "status": "training",
-    "type": "Zone2 Run",
-    "content": "Zone2 Run 5km",
-    "duration_min": 40,
-    "recovery": "Caution",
+    "type": "Upper Body + Core",
+    "content": "Upper Body + Core 45–60min",
+    "duration_min": 60,
+    "recovery": "Good",
     "reason": [
-      "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
-      "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
-      "睡眠较差，今天保持 Zone2，不追求配速。"
+      "7/7 Zone2 5km 完成质量较高，膝盖恢复至 0/10。",
+      "当前主要限制来自睡眠质量，不是训练负荷。",
+      "今天做上肢与核心稳定，不增加下肢冲击。"
     ]
   },
   "reasons": [
-    "7/6 已完成 Upper Body D1，上肢训练未加重膝盖。",
-    "膝盖上下楼仍有 2/10 不适，跑前需重新确认体感。",
-    "睡眠较差，今天保持 Zone2，不追求配速。"
+    "7/7 Zone2 5km 完成质量较高，膝盖恢复至 0/10。",
+    "当前主要限制来自睡眠质量，不是训练负荷。",
+    "今天做上肢与核心稳定，不增加下肢冲击。"
   ],
   "next_training": {
-    "type": "Zone2 Run",
-    "distance": "5 km",
-    "intensity": "Zone 2",
-    "time": "40 min",
-    "adjustment_type": "Continue Plan",
-    "reason": "继续 Week 2 计划，观察膝盖与睡眠恢复"
+    "type": "Upper Body + Core",
+    "distance": "",
+    "intensity": "Strength + Core Stability",
+    "time": "45–60 min",
+    "adjustment_type": "Plan Update",
+    "reason": "核心稳定、上肢推拉力量、肩胛稳定；不增加下肢冲击"
   },
   "weekly_plan": {
     "week_label": "Week 2",
@@ -59,24 +59,28 @@
       {
         "date": "2026-07-07",
         "day": "Tue",
-        "status": "planned",
+        "status": "completed",
         "type": "Zone2",
-        "content": "5km",
+        "content": "5km + strides",
         "distance_km": 5,
-        "completed": false
+        "duration_min": 46.23,
+        "completed": true,
+        "pace": "9'14\"/km",
+        "heart_rate_avg": 137,
+        "cadence_spm": 151
       },
       {
         "date": "2026-07-08",
         "day": "Wed",
         "status": "planned",
-        "type": "Strength",
-        "content": "Lower Body",
+        "type": "Upper Body + Core",
+        "content": "45–60min",
         "duration_min": 60,
         "completed": false,
         "focus": [
-          "臀中肌",
-          "腘绳肌",
-          "单腿稳定"
+          "核心稳定",
+          "上肢推拉力量",
+          "肩胛稳定"
         ]
       },
       {
@@ -123,85 +127,57 @@
   "append": {
     "training_log": [
       {
-        "date": "2026-07-06",
-        "training_type": "Upper Body + Core",
-        "program": "Upper Body D1",
-        "duration_min": 44,
-        "distance_km": null,
-        "pace": null,
-        "heart_rate_avg": 99,
-        "calories_estimated": 175,
-        "total_volume_kg": 3340,
-        "RPE": null,
-        "pain_score": 2,
-        "notes": "Completed Upper Body D1. No worsening after upper-body session. Seated Cable Row skipped. Bird Dog completed 12 reps.",
+        "date": "2026-07-07",
+        "training_type": "Zone2 Run + Strides",
+        "duration_min": 46.23,
+        "duration": "46:14",
+        "distance_km": 5,
+        "pace": "9'14\"/km",
+        "heart_rate_avg": 137,
+        "cadence_spm": 151,
+        "RPE": 2.5,
+        "pain_score": 0,
+        "notes": "Outdoor Zone 2 run completed. Last ~800m included strides: about 250m fast running + 150m walking cycles. Average HR improved to 137 bpm versus last week's same-distance run. Training load remained low.",
         "completed": true,
-        "exercises": [
-          {
-            "name": "Dumbbell Shoulder Press",
-            "sets": [
-              "10 kg × 12",
-              "10 kg × 10",
-              "10 kg × 10",
-              "10 kg × 10"
-            ]
-          },
-          {
-            "name": "Wide Grip Lat Pulldown",
-            "sets": [
-              "25 kg × 12 × 4"
-            ]
-          },
-          {
-            "name": "Lateral Raise",
-            "sets": [
-              "2 kg × 22",
-              "2 kg × 22",
-              "2 kg × 18",
-              "2 kg × 18"
-            ]
-          },
-          {
-            "name": "One-arm Dumbbell Row",
-            "sets": [
-              "12 kg × 10 × 3"
-            ]
-          },
-          {
-            "name": "Cable Triceps Pushdown",
-            "sets": [
-              "20 kg × 15 × 4"
-            ]
-          },
-          {
-            "name": "Seated Cable Row",
-            "sets": [
-              "Skipped"
-            ]
-          },
-          {
-            "name": "Bird Dog",
-            "sets": [
-              "12 reps"
-            ]
-          }
-        ]
+        "status": "Completed",
+        "environment": "Outdoor",
+        "strides": "Last ~800m: ~250m fast run + 150m walk cycles",
+        "recovery": "Good",
+        "knee_pain": 0,
+        "muscle_soreness": {
+          "calves": 2,
+          "glutes": 2
+        }
       }
     ],
     "body_log": [
       {
-        "date": "2026-07-06",
-        "weight_kg": null,
+        "date": "2026-07-07",
+        "weight_kg": 72.5,
         "sleep_hours": null,
         "resting_hr": null,
-        "fatigue": "Sleepy throughout the day after waking around 03:00–04:00.",
-        "knee_pain": 2,
+        "fatigue": "Slight fatigue. Sleep quality average due to repeated waking from itching.",
+        "knee_pain": 0,
         "recovery_score": null,
-        "energy": "Lower than normal because of poor sleep; otherwise felt fine.",
-        "recovery": "Caution",
-        "notes": "Walking normal. Noticeable discomfort when going upstairs/downstairs. Not painful. No worsening after upper-body session. Weight not recorded; measure tomorrow morning."
+        "RPE": 2.5,
+        "recovery": "Good",
+        "energy": "Overall good with slight fatigue.",
+        "muscle_soreness": {
+          "calves": 2,
+          "glutes": 2
+        },
+        "other_symptoms": "None",
+        "notes": "Main recovery limiter is sleep quality, not training load."
+      }
+    ],
+    "coach_journal": [
+      {
+        "date": "2026-07-07",
+        "change": "Week 2 Wednesday changed to Upper Body + Core",
+        "reason": "Zone 2 5km completed well; knee returned to 0/10; sleep quality remains the main limiter. Tomorrow keeps strength and core work without adding lower-body impact.",
+        "confidence": "Medium"
       }
     ]
   },
-  "last_updated": "2026-07-06T21:30:00+08:00"
+  "last_updated": "2026-07-07T21:30:00+08:00"
 }

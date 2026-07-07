@@ -2,11 +2,27 @@
 
 Date
 
-2026-07-06 (Monday)
+2026-07-07
 
 ---
 
-## Training Today
+## Race
+
+Target Event
+
+太舞崇礼25K 越野赛
+
+Race Date
+
+2026-09-13
+
+Days Remaining
+
+约68天
+
+---
+
+## Today's Plan
 
 Status
 
@@ -14,61 +30,32 @@ Completed
 
 Training
 
-Upper Body D1
+Zone 2 Run + Strides
+
+Completed
+
+- Zone 2 跑步 5.00 km
+- 最后约 800 m 加入加速练习（约 250 m 快跑 + 150 m 快走循环）
 
 Duration
 
-44 min
+46:14
 
-Average HR
+Average Pace
 
-99 bpm
+9'14"/km
 
-Estimated Calories
+Average Heart Rate
 
-175 kcal
+137 bpm
 
-Total Volume
+Cadence
 
-3340 kg
+151 spm
 
----
+Environment
 
-## Exercises
-
-Dumbbell Shoulder Press
-
-- 10 kg × 12
-- 10 kg × 10
-- 10 kg × 10
-- 10 kg × 10
-
-Wide Grip Lat Pulldown
-
-- 25 kg × 12 × 4
-
-Lateral Raise
-
-- 2 kg × 22
-- 2 kg × 22
-- 2 kg × 18
-- 2 kg × 18
-
-One-arm Dumbbell Row
-
-- 12 kg × 10 × 3
-
-Cable Triceps Pushdown
-
-- 20 kg × 15 × 4
-
-Seated Cable Row
-
-- Skipped
-
-Bird Dog
-
-- 12 reps
+Outdoor
 
 ---
 
@@ -76,69 +63,82 @@ Bird Dog
 
 Weight
 
-Not recorded. Measure tomorrow morning.
+72.5 kg
 
 Sleep
 
-Woke up around 03:00–04:00.
-
-Felt sleepy throughout the day.
+夜间因瘙痒多次醒来，睡眠质量一般。
 
 Energy
 
-Lower than normal because of poor sleep.
+整体状态良好，略有疲劳感。
 
-Otherwise felt fine.
+RPE
+
+2–3 / 10
 
 ---
 
-## Knee Status
+## Body Status
 
-Pain Score
+Knee Pain
+
+0 / 10
+
+Muscle Soreness
 
 2 / 10
 
-Description
+Location
 
-Walking is normal.
+- 小腿
+- 臀部
 
-Noticeable discomfort when going upstairs/downstairs.
+Other Symptoms
 
-Not painful.
-
-No worsening after today's upper-body session.
-
-Other Pain
-
-None reported.
+无。
 
 ---
 
-## Assessment
+## AI Assessment
 
-Current recovery trend remains positive.
+本次训练完成质量较高。
 
-Knee symptoms continue to improve.
+相比上周相同距离训练，平均心率下降至 137 bpm，说明有氧控制有所改善。
 
-Still not ready for aggressive return-to-run.
+最后加入短距离加速跑，为神经肌肉和跑姿提供了额外刺激，同时整体训练负荷仍然较低（RPE 2–3）。
 
-Continue avoiding impact loading if stair discomfort worsens.
+当前最大的恢复限制来自睡眠质量，而不是训练负荷。
 
-Recovery priority:
-
-- Improve sleep quality tonight.
-- Monitor morning knee status tomorrow.
+膝盖恢复至 0/10，可继续按 Week 2 计划推进。
 
 ---
 
-## Tomorrow
+## Tomorrow Plan
 
-Plan
+Upper Body + Core
 
-Zone2 Run
+45–60 min
 
-5 km
+重点：
 
-Decision checkpoint:
+- 核心稳定
+- 上肢推拉力量
+- 肩胛稳定
+- 不增加下肢冲击
 
-Record morning body weight, morning knee pain score, sleep quality, and training completion.
+如夜间睡眠继续受影响，则保持训练质量，不增加训练量。
+
+---
+
+## Coach Notes
+
+Week 2 开局顺利。
+
+目前训练适应情况优于预期：
+
+- 长距离恢复良好；
+- Zone 2 心率控制改善；
+- 膝盖未出现持续不适。
+
+接下来继续坚持"低强度、高一致性"原则，不追求配速提升，而是持续积累有氧能力和稳定完成训练计划。

@@ -138,5 +138,28 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2026-07-07",
+    "training_type": "Zone2 Run + Strides",
+    "duration_min": 46.23,
+    "duration": "46:14",
+    "distance_km": 5,
+    "pace": "9'14\"/km",
+    "heart_rate_avg": 137,
+    "cadence_spm": 151,
+    "RPE": 2.5,
+    "pain_score": 0,
+    "notes": "Outdoor Zone 2 run completed. Last ~800m included strides: about 250m fast running + 150m walking cycles. Average HR improved to 137 bpm versus last week's same-distance run. Training load remained low.",
+    "completed": true,
+    "status": "Completed",
+    "environment": "Outdoor",
+    "strides": "Last ~800m: ~250m fast run + 150m walk cycles",
+    "recovery": "Good",
+    "knee_pain": 0,
+    "muscle_soreness": {
+      "calves": 2,
+      "glutes": 2
+    }
   }
 ]
