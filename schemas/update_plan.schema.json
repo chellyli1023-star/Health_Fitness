@@ -39,7 +39,6 @@
     },
     "append": {
       "type": "object",
-      "required": ["training_log", "body_log", "coach_journal"],
       "additionalProperties": false,
       "properties": {
         "training_log": { "type": "array" },

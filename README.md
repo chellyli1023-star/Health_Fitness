@@ -23,7 +23,7 @@ The daily operating goal is low interaction cost:
 3. Codex updates the Dashboard
 4. The next morning, Dashboard and Daily Brief read the latest state directly
 
-The system does not use `tomorrow.md`. Tomorrow is a plan, not a fact. Plans belong in `data/state.json` and `data/weekly_plan.json`.
+The system does not use `tomorrow.md`. Tomorrow is a plan, not a fact. Plans belong only in `data/state.json` and `data/weekly_plan.json`.
 
 ## Product Boundary
 
@@ -120,6 +120,12 @@ Plans live in:
 
 `data/weekly_plan.json` stores the full current week plan. When GPT adjusts training, update this file.
 
+Plan source rule:
+
+1. `data/weekly_plan.json` is the source of the current week plan.
+2. `data/state.json` is the source of the current Dashboard display and any temporary approved override.
+3. `current/today.md` is never a plan source.
+
 ## Daily Working Context
 
 `current/today.md` is the daily working context shared by GPT and Codex.
@@ -134,7 +140,7 @@ All history belongs in append-only JSON files:
 - `data/body_log.json`
 - `data/coach_journal.json`
 
-`current/today.md` uses Markdown and contains:
+`current/today.md` uses Markdown and contains only facts:
 
 - Date
 - Race Countdown
@@ -145,9 +151,27 @@ All history belongs in append-only JSON files:
 - Weekly Progress Snapshot
 - Coach Notes / Current AI Judgment
 
+`current/today.md` must not contain:
+
+- Tomorrow Plan
+- Next Training
+- 明天训练安排
+
+If `current/today.md` contains any future plan text, ignore that section and use `data/weekly_plan.json` / `data/state.json` instead.
+
 ## Daily Brief Input Order
 
-When generating a Daily Brief, Dashboard Update, or training plan, read files in this exact order:
+When generating a Daily Brief or Dashboard Update:
+
+1. Read the current date.
+2. Match the current date to the corresponding day in `data/weekly_plan.json`.
+3. Read that day's training plan.
+4. If `data/state.json` contains an approved temporary override, use `data/state.json`.
+5. Use `current/today.md` only as recovery/body-state input.
+
+Do not derive tomorrow's plan from `current/today.md`.
+
+General context files may be read in this order:
 
 1. `notes/project_context.md`
 2. `memory/memory.md`
@@ -160,7 +184,7 @@ When generating a Daily Brief, Dashboard Update, or training plan, read files in
 9. `data/body_log.json`
 10. `data/coach_journal.json`
 
-Do not change the read order.
+Do not change the context read order. The plan source rule above still takes precedence.
 
 ## Daily Brief Format
 

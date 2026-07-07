@@ -20,7 +20,7 @@ This Dashboard owns only the daily training decision:
 3. Am I on track this week?
 4. What did AI change most recently?
 
-V1 final does not use `tomorrow.md`. Tomorrow is a plan, not a fact. Plans live in `data/state.json` and `data/weekly_plan.json`.
+V1 final does not use `tomorrow.md`. Tomorrow is a plan, not a fact. Plans live only in `data/state.json` and `data/weekly_plan.json`.
 
 ## Layers
 
@@ -99,6 +99,18 @@ Required sections:
 - Weekly Progress Snapshot
 - Coach Notes / Current AI Judgment
 
+Forbidden sections:
+
+- Tomorrow Plan
+- Next Training
+- 明天训练安排
+
+If `current/today.md` contains future plan text, Daily Brief and update tooling must ignore that section and warn:
+
+```text
+today.md should not contain future plan. Use weekly_plan.json/state.json instead.
+```
+
 Historical facts from `current/today.md` must be moved into append-only logs when they become records:
 
 - `data/training_log.json`
@@ -107,7 +119,17 @@ Historical facts from `current/today.md` must be moved into append-only logs whe
 
 ### Daily Brief Input Order
 
-When generating a Daily Brief, Dashboard Update, or training plan, read files in this exact order:
+When generating a Daily Brief or Dashboard Update:
+
+1. Read the current date.
+2. Match the current date to the corresponding day in `data/weekly_plan.json`.
+3. Read that day's training plan.
+4. If `data/state.json` contains an approved temporary override, use `data/state.json`.
+5. Use `current/today.md` only as recovery/body-state input.
+
+Do not derive tomorrow's plan from `current/today.md`.
+
+General context files may be read in this order:
 
 1. `notes/project_context.md`
 2. `memory/memory.md`
@@ -120,7 +142,7 @@ When generating a Daily Brief, Dashboard Update, or training plan, read files in
 9. `data/body_log.json`
 10. `data/coach_journal.json`
 
-Do not change the read order.
+Do not change the context read order. The plan source rule above still takes precedence.
 
 ### Facts and Plans
 
@@ -134,6 +156,8 @@ Plans live in:
 
 - `data/state.json`
 - `data/weekly_plan.json`
+
+The plan source is exclusive. `current/today.md` records facts only and cannot override `data/weekly_plan.json` or `data/state.json`.
 
 `current/today.md` is overwritten daily.
 

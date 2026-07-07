@@ -41,5 +41,11 @@
     "change": "Week 2 Wednesday changed to Upper Body + Core",
     "reason": "Zone 2 5km completed well; knee returned to 0/10; sleep quality remains the main limiter. Tomorrow keeps strength and core work without adding lower-body impact.",
     "confidence": "Medium"
+  },
+  {
+    "date": "2026-07-07",
+    "change": "Corrected plan source rule and restored 2026-07-08 to Lower Body Strength",
+    "reason": "today.md must record facts only and must not be used as a future plan source. Week 2 Wednesday plan comes from weekly_plan.json/state.json.",
+    "confidence": "High"
   }
 ]

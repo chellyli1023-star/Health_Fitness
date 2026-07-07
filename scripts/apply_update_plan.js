@@ -10,7 +10,8 @@ const paths = {
   bodyLog: path.join(root, "data", "body_log.json"),
   coachJournal: path.join(root, "data", "coach_journal.json"),
   settings: path.join(root, "data", "settings.json"),
-  indexHtml: path.join(root, "dashboard", "index.html")
+  indexHtml: path.join(root, "dashboard", "index.html"),
+  todayMd: path.join(root, "current", "today.md")
 };
 
 function readJson(filePath) {
@@ -65,6 +66,16 @@ function validateUpdatePlan(plan) {
   ["training_log", "body_log", "coach_journal"].forEach((key) => {
     if (append[key] !== undefined) assertArray(append[key], `append.${key}`);
   });
+}
+
+function warnIfTodayContainsFuturePlan(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  const text = fs.readFileSync(filePath, "utf8");
+  if (/\b(Tomorrow Plan|Next Training)\b|明天训练安排/.test(text)) {
+    console.warn(
+      "today.md should not contain future plan. Use weekly_plan.json/state.json instead."
+    );
+  }
 }
 
 function appendOnly(existing, additions, label) {
@@ -158,6 +169,7 @@ function main() {
   try {
     const updatePlan = readJson(paths.updatePlan);
     validateUpdatePlan(updatePlan);
+    warnIfTodayContainsFuturePlan(paths.todayMd);
 
     const currentState = readJson(paths.state);
     const settings = readJson(paths.settings);

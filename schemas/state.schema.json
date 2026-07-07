@@ -76,7 +76,14 @@
       "type": ["object", "null"],
       "additionalProperties": false,
       "properties": {
+        "date": { "type": "string" },
+        "day": { "type": "string" },
         "type": { "type": "string" },
+        "content": { "type": "string" },
+        "focus": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
         "distance": { "type": "string" },
         "intensity": { "type": "string" },
         "time": { "type": "string" },

@@ -1,8 +1,8 @@
 {
   "meta": {
     "generated_by": "GPT",
-    "generated_at": "2026-07-07T21:30:00+08:00",
-    "summary": "Completed Zone 2 Run 5km with strides; update tomorrow to Upper Body + Core"
+    "generated_at": "2026-07-07T22:00:00+08:00",
+    "summary": "Correct plan source rule and restore Week 2 Wednesday to Lower Body Strength"
   },
   "race": {
     "name": "太舞崇礼25K",
@@ -13,28 +13,42 @@
   "today": {
     "date": "2026-07-08",
     "status": "training",
-    "type": "Upper Body + Core",
-    "content": "Upper Body + Core 45–60min",
+    "type": "Strength",
+    "content": "下肢力量 45–60 min",
     "duration_min": 60,
     "recovery": "Good",
+    "focus": [
+      "臀中肌",
+      "腘绳肌",
+      "单腿稳定",
+      "核心"
+    ],
     "reason": [
-      "7/7 Zone2 5km 完成质量较高，膝盖恢复至 0/10。",
-      "当前主要限制来自睡眠质量，不是训练负荷。",
-      "今天做上肢与核心稳定，不增加下肢冲击。"
+      "昨日 Zone 2 训练完成，膝盖 0/10。",
+      "按 Week 2 计划进入下肢力量日。",
+      "睡眠质量一般，因此以动作质量和稳定性为主，不追求加重量。"
     ]
   },
   "reasons": [
-    "7/7 Zone2 5km 完成质量较高，膝盖恢复至 0/10。",
-    "当前主要限制来自睡眠质量，不是训练负荷。",
-    "今天做上肢与核心稳定，不增加下肢冲击。"
+    "昨日 Zone 2 训练完成，膝盖 0/10。",
+    "按 Week 2 计划进入下肢力量日。",
+    "睡眠质量一般，因此以动作质量和稳定性为主，不追求加重量。"
   ],
   "next_training": {
-    "type": "Upper Body + Core",
-    "distance": "",
-    "intensity": "Strength + Core Stability",
+    "date": "2026-07-08",
+    "day": "Wednesday",
+    "type": "Lower Body Strength",
+    "content": "下肢力量 45–60 min",
+    "focus": [
+      "臀中肌",
+      "腘绳肌",
+      "单腿稳定",
+      "核心"
+    ],
+    "intensity": "Strength",
     "time": "45–60 min",
-    "adjustment_type": "Plan Update",
-    "reason": "核心稳定、上肢推拉力量、肩胛稳定；不增加下肢冲击"
+    "adjustment_type": "Plan Source Correction",
+    "reason": "Week 2 周三计划为下肢力量；7/7 Zone 2 完成质量良好，膝盖 0/10，可按计划推进。但因睡眠质量一般，不增加训练强度。"
   },
   "weekly_plan": {
     "week_label": "Week 2",
@@ -73,14 +87,15 @@
         "date": "2026-07-08",
         "day": "Wed",
         "status": "planned",
-        "type": "Upper Body + Core",
-        "content": "45–60min",
+        "type": "Strength",
+        "content": "Lower Body 45–60min",
         "duration_min": 60,
         "completed": false,
         "focus": [
-          "核心稳定",
-          "上肢推拉力量",
-          "肩胛稳定"
+          "臀中肌",
+          "腘绳肌",
+          "单腿稳定",
+          "核心"
         ]
       },
       {
@@ -125,59 +140,14 @@
     ]
   },
   "append": {
-    "training_log": [
-      {
-        "date": "2026-07-07",
-        "training_type": "Zone2 Run + Strides",
-        "duration_min": 46.23,
-        "duration": "46:14",
-        "distance_km": 5,
-        "pace": "9'14\"/km",
-        "heart_rate_avg": 137,
-        "cadence_spm": 151,
-        "RPE": 2.5,
-        "pain_score": 0,
-        "notes": "Outdoor Zone 2 run completed. Last ~800m included strides: about 250m fast running + 150m walking cycles. Average HR improved to 137 bpm versus last week's same-distance run. Training load remained low.",
-        "completed": true,
-        "status": "Completed",
-        "environment": "Outdoor",
-        "strides": "Last ~800m: ~250m fast run + 150m walk cycles",
-        "recovery": "Good",
-        "knee_pain": 0,
-        "muscle_soreness": {
-          "calves": 2,
-          "glutes": 2
-        }
-      }
-    ],
-    "body_log": [
-      {
-        "date": "2026-07-07",
-        "weight_kg": 72.5,
-        "sleep_hours": null,
-        "resting_hr": null,
-        "fatigue": "Slight fatigue. Sleep quality average due to repeated waking from itching.",
-        "knee_pain": 0,
-        "recovery_score": null,
-        "RPE": 2.5,
-        "recovery": "Good",
-        "energy": "Overall good with slight fatigue.",
-        "muscle_soreness": {
-          "calves": 2,
-          "glutes": 2
-        },
-        "other_symptoms": "None",
-        "notes": "Main recovery limiter is sleep quality, not training load."
-      }
-    ],
     "coach_journal": [
       {
         "date": "2026-07-07",
-        "change": "Week 2 Wednesday changed to Upper Body + Core",
-        "reason": "Zone 2 5km completed well; knee returned to 0/10; sleep quality remains the main limiter. Tomorrow keeps strength and core work without adding lower-body impact.",
-        "confidence": "Medium"
+        "change": "Corrected plan source rule and restored 2026-07-08 to Lower Body Strength",
+        "reason": "today.md must record facts only and must not be used as a future plan source. Week 2 Wednesday plan comes from weekly_plan.json/state.json.",
+        "confidence": "High"
       }
     ]
   },
-  "last_updated": "2026-07-07T21:30:00+08:00"
+  "last_updated": "2026-07-07T22:00:00+08:00"
 }

@@ -35,14 +35,15 @@
       "date": "2026-07-08",
       "day": "Wed",
       "status": "planned",
-      "type": "Upper Body + Core",
-      "content": "45–60min",
+      "type": "Strength",
+      "content": "Lower Body 45–60min",
       "duration_min": 60,
       "completed": false,
       "focus": [
-        "核心稳定",
-        "上肢推拉力量",
-        "肩胛稳定"
+        "臀中肌",
+        "腘绳肌",
+        "单腿稳定",
+        "核心"
       ]
     },
     {
