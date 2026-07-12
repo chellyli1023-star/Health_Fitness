@@ -1,102 +1,146 @@
 {
-  "week_label": "Week 2",
-  "week_start": "2026-07-06",
-  "week_end": "2026-07-12",
-  "running_target_km": 21,
+  "week_label": "Week 3",
+  "week_start": "2026-07-13",
+  "week_end": "2026-07-19",
+  "running_target_km": 18,
   "strength_target": 2,
   "long_run_target": 1,
+  "goal": "Recovery + Consistency",
+  "key_metrics": {
+    "current": {
+      "weight_kg": 73,
+      "fatigue": 6,
+      "knee": 2,
+      "calf_soreness": "Mild"
+    },
+    "target": {
+      "fatigue": "<=4/10",
+      "knee": "0–1/10",
+      "running_exposures": 3,
+      "strength_sessions": 2
+    }
+  },
+  "priority": {
+    "P1": [
+      "Knee recovery",
+      "Maintain strength"
+    ],
+    "P2": [
+      "Running consistency"
+    ],
+    "P3": [
+      "Volume progression"
+    ]
+  },
+  "risk_control": {
+    "reduce": [
+      "High intensity leg work",
+      "Sprint volume",
+      "Long downhill"
+    ],
+    "monitor": [
+      "Knee response after lower body day",
+      "Calf/Achilles tightness",
+      "Sleep quality"
+    ]
+  },
   "days": [
     {
-      "date": "2026-07-06",
+      "date": "2026-07-13",
       "day": "Mon",
-      "status": "completed",
-      "type": "Upper Body + Core",
-      "content": "Upper Body D1",
-      "duration_min": 44,
-      "completed": true,
-      "heart_rate_avg": 99,
-      "calories_estimated": 175,
-      "total_volume_kg": 3340
-    },
-    {
-      "date": "2026-07-07",
-      "day": "Tue",
-      "status": "completed",
-      "type": "Zone2",
-      "content": "5km + strides",
-      "distance_km": 5,
-      "duration_min": 46.23,
-      "completed": true,
-      "pace": "9'14\"/km",
-      "heart_rate_avg": 137,
-      "cadence_spm": 151
-    },
-    {
-      "date": "2026-07-08",
-      "day": "Wed",
-      "status": "completed",
-      "type": "Strength",
-      "content": "Lower Body D1",
-      "duration_min": 46,
-      "completed": true,
-      "heart_rate_avg": 100,
-      "calories_estimated": 200,
-      "total_volume_kg": 5328,
+      "status": "planned",
+      "type": "Recovery",
+      "content": "Walk + Mobility 30–40min",
+      "duration_min": 40,
+      "completed": false,
       "focus": [
-        "股四头",
-        "臀部",
-        "后侧链 / 腘绳肌",
-        "小腿",
-        "背部与核心稳定",
-        "前臂握力"
+        "fatigue downshift",
+        "knee response",
+        "calf/Achilles check"
       ]
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-07-14",
+      "day": "Tue",
+      "status": "planned",
+      "type": "Zone2",
+      "content": "4–5km easy",
+      "distance_km": 4.5,
+      "completed": false,
+      "intensity": "Easy Zone 2",
+      "constraints": [
+        "flat route",
+        "no sprint volume"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Wed",
+      "status": "planned",
+      "type": "Upper Body + Core",
+      "content": "Upper + Core 40–50min",
+      "duration_min": 50,
+      "completed": false,
+      "focus": [
+        "upper body",
+        "core stability",
+        "low knee load"
+      ]
+    },
+    {
+      "date": "2026-07-16",
       "day": "Thu",
       "status": "planned",
       "type": "Recovery",
-      "content": "30–40min",
-      "duration_min": 40,
+      "content": "Recovery walk 30min / Rest",
+      "duration_min": 30,
       "completed": false,
-      "options": [
-        "坡度走",
-        "快走"
+      "rule": "Rest if fatigue >4/10 or knee >1/10."
+    },
+    {
+      "date": "2026-07-17",
+      "day": "Fri",
+      "status": "planned",
+      "type": "Zone2",
+      "content": "5km easy",
+      "distance_km": 5,
+      "completed": false,
+      "intensity": "Easy Zone 2",
+      "rule": "No strides unless fatigue <=4/10 and knee 0–1/10."
+    },
+    {
+      "date": "2026-07-18",
+      "day": "Sat",
+      "status": "planned",
+      "type": "Strength",
+      "content": "Lower Body controlled 40–45min",
+      "duration_min": 45,
+      "completed": false,
+      "focus": [
+        "controlled tempo",
+        "posterior chain",
+        "single-leg stability"
+      ],
+      "avoid": [
+        "high intensity leg work",
+        "max load",
+        "plyometrics"
       ]
     },
     {
-      "date": "2026-07-10",
-      "day": "Fri",
-      "status": "completed",
-      "type": "Zone2",
-      "content": "3.54km + 4×30s",
-      "distance_km": 3.54,
-      "duration_min": 32.87,
-      "completed": true,
-      "pace": "9'17\"/km",
-      "heart_rate_avg": 132,
-      "active_calories": 222,
-      "total_calories": 274,
-      "strides": "30s fast × 4, 30–60s walk recovery"
-    },
-    {
-      "date": "2026-07-11",
-      "day": "Sat",
-      "status": "completed",
-      "type": "Long Run",
-      "content": "9km · heat/humidity",
-      "distance_km": 9,
-      "completed": true,
-      "environment": "30°C, 75–80% humidity"
-    },
-    {
-      "date": "2026-07-12",
+      "date": "2026-07-19",
       "day": "Sun",
-      "status": "adjusted",
-      "type": "Recovery",
-      "content": "Weekly Review",
-      "duration_min": 0,
-      "completed": false
+      "status": "planned",
+      "type": "Long Run",
+      "content": "8–9km Zone2 flat",
+      "distance_km": 8.5,
+      "completed": false,
+      "intensity": "Zone 2",
+      "constraints": [
+        "flat/soft route",
+        "avoid long downhill",
+        "stop if knee pain rises"
+      ]
     }
   ]
 }
