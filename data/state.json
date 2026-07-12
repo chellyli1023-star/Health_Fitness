@@ -3,40 +3,34 @@
     "name": "太舞崇礼25K",
     "date": "2026-09-13",
     "distance_km": 25,
-    "days_remaining": 67
+    "days_remaining": 63
   },
   "today": {
-    "date": "2026-07-08",
-    "status": "training",
-    "type": "Strength",
-    "content": "下肢力量 45–60 min",
-    "duration_min": 60,
-    "recovery": "Good",
-    "focus": [
-      "臀中肌",
-      "腘绳肌",
-      "单腿稳定",
-      "核心"
-    ],
+    "date": "2026-07-12",
+    "status": "recovery",
+    "type": "Weekly Review",
+    "content": "恢复监控 · 疲劳6/10 · 膝盖2/10",
+    "duration_min": 0,
+    "recovery": "Caution",
     "reason": [
-      "昨日 Zone 2 训练完成，膝盖 0/10。",
-      "按 Week 2 计划进入下肢力量日。",
-      "睡眠质量一般，因此以动作质量和稳定性为主，不追求加重量。"
+      "本周训练负荷 moderate-high，长距离在30°C与75–80%湿度下完成。",
+      "当前主要风险是疲劳累积与膝盖负荷敏感。",
+      "下周保持训练频率，但略微降低强度峰值。"
     ]
   },
   "reasons": [
-    "昨日 Zone 2 训练完成，膝盖 0/10。",
-    "按 Week 2 计划进入下肢力量日。",
-    "睡眠质量一般，因此以动作质量和稳定性为主，不追求加重量。"
+    "本周训练负荷 moderate-high，长距离在30°C与75–80%湿度下完成。",
+    "当前主要风险是疲劳累积与膝盖负荷敏感。",
+    "下周保持训练频率，但略微降低强度峰值。"
   ],
   "week": {
     "label": "Week 2",
     "progress": {
-      "running_done_km": 5,
+      "running_done_km": 17.54,
       "running_target_km": 21,
-      "strength_done": 1,
+      "strength_done": 2,
       "strength_target": 2,
-      "long_run_done": 0,
+      "long_run_done": 1,
       "long_run_target": 1
     },
     "days": [
@@ -54,9 +48,9 @@
       },
       {
         "day": "Wed",
-        "status": "planned",
+        "status": "completed",
         "type": "Strength",
-        "content": "Lower Body 45–60min"
+        "content": "Lower Body D1"
       },
       {
         "day": "Thu",
@@ -66,45 +60,39 @@
       },
       {
         "day": "Fri",
-        "status": "planned",
+        "status": "completed",
         "type": "Zone2",
-        "content": "6km + 4×30s"
+        "content": "3.54km + 4×30s"
       },
       {
         "day": "Sat",
-        "status": "empty",
-        "type": "Rest",
-        "content": "Rest"
+        "status": "completed",
+        "type": "Long Run",
+        "content": "9km · heat/humidity"
       },
       {
         "day": "Sun",
-        "status": "planned",
-        "type": "Long Run",
-        "content": "9km Zone2"
+        "status": "adjusted",
+        "type": "Recovery",
+        "content": "Weekly Review"
       }
     ]
   },
   "next_training": {
-    "date": "2026-07-08",
-    "day": "Wednesday",
-    "type": "Lower Body Strength",
-    "content": "下肢力量 45–60 min",
-    "focus": [
-      "臀中肌",
-      "腘绳肌",
-      "单腿稳定",
-      "核心"
-    ],
-    "intensity": "Strength",
-    "time": "45–60 min",
-    "adjustment_type": "Plan Source Correction",
-    "reason": "Week 2 周三计划为下肢力量；7/7 Zone 2 完成质量良好，膝盖 0/10，可按计划推进。但因睡眠质量一般，不增加训练强度。"
+    "date": "2026-07-13",
+    "day": "Monday",
+    "type": "Next Week Priority",
+    "content": "Maintain frequency; reduce intensity peaks",
+    "intensity": "Controlled",
+    "time": "Next week",
+    "adjustment_type": "Weekly Review",
+    "reason": "Fatigue 6/10, knee 2/10 mild pressure, lower-leg soreness after 9km run in heat and humidity."
   },
   "last_ai_adjustment": {
-    "date": "2026-07-07",
-    "change": "Corrected plan source rule and restored 2026-07-08 to Lower Body Strength",
-    "reason": "today.md must record facts only and must not be used as a future plan source. Week 2 Wednesday plan comes from weekly_plan.json/state.json.",
+    "date": "2026-07-12",
+    "change": "Week 2 review: maintain frequency, reduce intensity peaks next week",
+    "reason": "Training load was moderate-high. Main stressor was 9km under 30°C and 75–80% humidity. Fatigue 6/10, knee 2/10 mild pressure, and mild lower-leg soreness indicate load sensitivity. Protect recovery and avoid chasing volume.",
     "confidence": "High"
   },
-  "last_updated": "2026-07-07T22:00:00+08:00"
+  "last_updated": "2026-07-12T23:55:00+08:00"
 }

@@ -2,7 +2,7 @@
 
 Date
 
-2026-07-07
+2026-07-12 (Sunday)
 
 ---
 
@@ -18,7 +18,7 @@ Race Date
 
 Days Remaining
 
-约68天
+63
 
 ---
 
@@ -26,87 +26,87 @@ Days Remaining
 
 Status
 
-Completed
+Weekly Review / Recovery Monitor
 
-Type
+Completed This Week
 
-Zone 2 Run + Strides
-
-Distance
-
-5.00 km
-
-Duration
-
-46:14
-
-Average Pace
-
-9'14"/km
-
-Average HR
-
-137 bpm
-
-Cadence
-
-151 spm
-
-Strides
-
-最后约 800m 加入 250m 快跑 + 150m 快走循环
-
-Environment
-
-Outdoor
-
-RPE
-
-2–3 / 10
+- 2026-07-08：Lower Body D1，Completed
+- 2026-07-10：Zone 2 + Strides，Completed（shortened）
+- 2026-07-11：Long Run 9 km，Completed
 
 ---
 
 ## Recovery
 
-Weight
-
-72.5 kg
-
-Sleep
-
-夜间因瘙痒多次醒来，睡眠质量一般。
-
 Fatigue
 
-连续训练 + 夜间瘙痒影响睡眠，略疲惫，但整体状态良好。
+6 / 10
+
+Sleep / Recovery
+
+Monitor
 
 ---
 
 ## Body Status
 
-Knee Pain
-
-0 / 10
-
-Muscle Soreness
+Knee
 
 2 / 10
 
-Location
+Notes
 
-- 小腿
-- 臀部
+- mild pressure
+- no pain
 
-Other Symptoms
+Lower Leg
 
-无。
+mild soreness
 
 ---
 
-## AI Assessment
+## Current Constraints
 
-训练负荷较低，膝盖状态良好。
+Main Stressor
 
-有氧控制改善。
+9 km run under 30°C + 75–80% humidity
 
-当前主要限制是睡眠质量，不是训练负荷。
+Risk
+
+- accumulating fatigue
+- knee load sensitivity
+
+---
+
+## Weekly Progress Snapshot
+
+Running
+
+17.54 / 21 km
+
+Strength
+
+2 / 2
+
+Long Run
+
+1 / 1
+
+---
+
+## Coach Notes / Current AI Judgment
+
+Training load this week was moderate-high.
+
+Main stressor was the 9 km run under 30°C + 75–80% humidity.
+
+Current risk is accumulating fatigue and knee load sensitivity.
+
+Next week should maintain training frequency while slightly reducing intensity peaks.
+
+Priorities:
+
+1. Maintain running consistency
+2. Complete 2 strength sessions
+3. Protect knee recovery
+4. Avoid chasing volume

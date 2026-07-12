@@ -84,5 +84,32 @@
     },
     "other_symptoms": "None",
     "notes": "Main recovery limiter is sleep quality, not training load."
+  },
+  {
+    "date": "2026-07-10",
+    "weight_kg": 73,
+    "sleep_hours": null,
+    "resting_hr": null,
+    "fatigue": null,
+    "knee_pain": 0,
+    "recovery_score": null,
+    "night_itching": "3–4 / 10, improved",
+    "sleep_notes": "Woke once due to itching and fell back asleep quickly.",
+    "recovery": "Good",
+    "notes": "Knee pain 0/10 and recovery good. Monitor calf/Achilles response after strides."
+  },
+  {
+    "date": "2026-07-12",
+    "weight_kg": null,
+    "sleep_hours": null,
+    "resting_hr": null,
+    "fatigue": 6,
+    "knee_pain": 2,
+    "recovery_score": null,
+    "recovery": "Caution",
+    "lower_leg_soreness": "mild",
+    "knee_notes": "mild pressure, no pain",
+    "sleep_recovery": "monitor",
+    "notes": "Post-week review after 9km run in 30°C and 75–80% humidity. Watch accumulating fatigue and knee load sensitivity."
   }
 ]

@@ -161,5 +161,109 @@
       "calves": 2,
       "glutes": 2
     }
+  },
+  {
+    "date": "2026-07-10",
+    "training_type": "Zone2 Run + Strides",
+    "duration_min": 32.87,
+    "duration": "32:52",
+    "distance_km": 3.54,
+    "pace": "9'17\"/km",
+    "heart_rate_avg": 132,
+    "heart_rate_peak": 159,
+    "active_calories": 222,
+    "total_calories": 274,
+    "RPE": null,
+    "pain_score": 0,
+    "notes": "Completed planned running day: Zone 2 / low-intensity run-walk first, then last ~5 minutes strides: 30s fast × 4 with 30–60s walk recovery. Volume was low due to limited time, but structure matched Zone 2 + Strides. HR rising to 159 bpm at the end is consistent with strides. No knee pain.",
+    "completed": true,
+    "status": "Completed",
+    "structure": {
+      "early": "Low-intensity run-walk / mostly Zone 2",
+      "finish": "Last ~5 min strides",
+      "strides": "30s fast × 4; 30–60s walk recovery"
+    },
+    "judgment": "Not a lower-body strength day; no lower-body makeup needed. Observe knee and calf/Achilles feedback before Sunday 9km long run."
+  },
+  {
+    "date": "2026-07-08",
+    "training_type": "Lower Body D1",
+    "duration_min": 46,
+    "distance_km": null,
+    "pace": null,
+    "heart_rate_avg": 100,
+    "calories_estimated": 200,
+    "total_volume_kg": 5328,
+    "RPE": null,
+    "pain_score": null,
+    "notes": "Completed full lower-body strength D1. This was a complete lower-body training session, not light recovery. Friday run should be understood as the running day after Wednesday lower-body strength; 7/10 3.54km + 4×30s strides was a shortened running day, not lower-body makeup.",
+    "completed": true,
+    "status": "Completed",
+    "stimulus": [
+      "股四头",
+      "臀部",
+      "后侧链 / 腘绳肌",
+      "小腿",
+      "背部与核心稳定",
+      "前臂握力"
+    ],
+    "exercises": [
+      {
+        "name": "哑铃前蹲",
+        "sets": [
+          "16 kg × 12",
+          "16 kg × 12",
+          "16 kg × 12",
+          "16 kg × 12"
+        ]
+      },
+      {
+        "name": "哑铃农夫行走",
+        "sets": [
+          "12 kg × 100",
+          "12 kg × 100",
+          "12 kg × 100"
+        ]
+      },
+      {
+        "name": "杠铃罗马尼亚硬拉",
+        "sets": [
+          "40 kg × 8",
+          "40 kg × 8",
+          "40 kg × 8"
+        ]
+      },
+      {
+        "name": "弹力带箭步走",
+        "sets": [
+          "0 kg × 20",
+          "20 reps"
+        ]
+      }
+    ],
+    "judgment": "This confirms 2026-07-08 was the lower-body strength day. 2026-07-10 was not a lower-body makeup session."
+  },
+  {
+    "date": "2026-07-11",
+    "training_type": "Long Run",
+    "duration_min": null,
+    "distance_km": 9,
+    "pace": null,
+    "heart_rate_avg": null,
+    "RPE": null,
+    "pain_score": 2,
+    "notes": "Completed 9km long run. Main stressor was heat and humidity: 30°C with 75–80% humidity. Weekly review flags moderate-high load, accumulating fatigue, and knee load sensitivity.",
+    "completed": true,
+    "status": "Completed",
+    "environment": {
+      "temperature_c": 30,
+      "humidity": "75–80%"
+    },
+    "recovery_after": {
+      "fatigue": 6,
+      "knee": "2/10 mild pressure, no pain",
+      "lower_leg": "mild soreness",
+      "sleep_recovery": "monitor"
+    }
   }
 ]

@@ -34,16 +34,21 @@
     {
       "date": "2026-07-08",
       "day": "Wed",
-      "status": "planned",
+      "status": "completed",
       "type": "Strength",
-      "content": "Lower Body 45–60min",
-      "duration_min": 60,
-      "completed": false,
+      "content": "Lower Body D1",
+      "duration_min": 46,
+      "completed": true,
+      "heart_rate_avg": 100,
+      "calories_estimated": 200,
+      "total_volume_kg": 5328,
       "focus": [
-        "臀中肌",
-        "腘绳肌",
-        "单腿稳定",
-        "核心"
+        "股四头",
+        "臀部",
+        "后侧链 / 腘绳肌",
+        "小腿",
+        "背部与核心稳定",
+        "前臂握力"
       ]
     },
     {
@@ -62,27 +67,35 @@
     {
       "date": "2026-07-10",
       "day": "Fri",
-      "status": "planned",
+      "status": "completed",
       "type": "Zone2",
-      "content": "6km + 4×30s",
-      "distance_km": 6,
-      "completed": false
+      "content": "3.54km + 4×30s",
+      "distance_km": 3.54,
+      "duration_min": 32.87,
+      "completed": true,
+      "pace": "9'17\"/km",
+      "heart_rate_avg": 132,
+      "active_calories": 222,
+      "total_calories": 274,
+      "strides": "30s fast × 4, 30–60s walk recovery"
     },
     {
       "date": "2026-07-11",
       "day": "Sat",
-      "status": "empty",
-      "type": "Rest",
-      "content": "Rest",
-      "completed": false
+      "status": "completed",
+      "type": "Long Run",
+      "content": "9km · heat/humidity",
+      "distance_km": 9,
+      "completed": true,
+      "environment": "30°C, 75–80% humidity"
     },
     {
       "date": "2026-07-12",
       "day": "Sun",
-      "status": "planned",
-      "type": "Long Run",
-      "content": "9km Zone2",
-      "distance_km": 9,
+      "status": "adjusted",
+      "type": "Recovery",
+      "content": "Weekly Review",
+      "duration_min": 0,
       "completed": false
     }
   ]

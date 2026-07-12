@@ -47,5 +47,11 @@
     "change": "Corrected plan source rule and restored 2026-07-08 to Lower Body Strength",
     "reason": "today.md must record facts only and must not be used as a future plan source. Week 2 Wednesday plan comes from weekly_plan.json/state.json.",
     "confidence": "High"
+  },
+  {
+    "date": "2026-07-12",
+    "change": "Week 2 review: maintain frequency, reduce intensity peaks next week",
+    "reason": "Training load was moderate-high. Main stressor was 9km under 30°C and 75–80% humidity. Fatigue 6/10, knee 2/10 mild pressure, and mild lower-leg soreness indicate load sensitivity. Protect recovery and avoid chasing volume.",
+    "confidence": "High"
   }
 ]
