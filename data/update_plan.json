@@ -1,8 +1,8 @@
 {
   "meta": {
     "generated_by": "GPT",
-    "generated_at": "2026-07-12T23:59:00+08:00",
-    "summary": "Create Week 3 plan: Recovery + Consistency"
+    "generated_at": "2026-07-13T00:05:00+08:00",
+    "summary": "Swap Week 3 lower-body and upper-body days to protect long-run readiness"
   },
   "race": {
     "name": "太舞崇礼25K",
@@ -20,13 +20,13 @@
     "reason": [
       "上周训练负荷 moderate-high，当前疲劳 6/10。",
       "膝盖 2/10 有轻微压力但无痛，优先保护恢复。",
-      "Week 3 目标是 Recovery + Consistency，不追跑量。"
+      "下肢力量提前到周三，避免周六练腿后直接接周日长距离。"
     ]
   },
   "reasons": [
     "上周训练负荷 moderate-high，当前疲劳 6/10。",
     "膝盖 2/10 有轻微压力但无痛，优先保护恢复。",
-    "Week 3 目标是 Recovery + Consistency，不追跑量。"
+    "下肢力量提前到周三，避免周六练腿后直接接周日长距离。"
   ],
   "next_training": {
     "date": "2026-07-14",
@@ -118,14 +118,19 @@
         "date": "2026-07-15",
         "day": "Wed",
         "status": "planned",
-        "type": "Upper Body + Core",
-        "content": "Upper + Core 40–50min",
-        "duration_min": 50,
+        "type": "Strength",
+        "content": "Lower Body controlled 40–45min",
+        "duration_min": 45,
         "completed": false,
         "focus": [
-          "upper body",
-          "core stability",
-          "low knee load"
+          "controlled tempo",
+          "posterior chain",
+          "single-leg stability"
+        ],
+        "avoid": [
+          "high intensity leg work",
+          "max load",
+          "plyometrics"
         ]
       },
       {
@@ -153,19 +158,14 @@
         "date": "2026-07-18",
         "day": "Sat",
         "status": "planned",
-        "type": "Strength",
-        "content": "Lower Body controlled 40–45min",
-        "duration_min": 45,
+        "type": "Upper Body + Core",
+        "content": "Upper + Core 40–50min",
+        "duration_min": 50,
         "completed": false,
         "focus": [
-          "controlled tempo",
-          "posterior chain",
-          "single-leg stability"
-        ],
-        "avoid": [
-          "high intensity leg work",
-          "max load",
-          "plyometrics"
+          "upper body",
+          "core stability",
+          "low knee load"
         ]
       },
       {
@@ -190,12 +190,12 @@
     "body_log": [],
     "coach_journal": [
       {
-        "date": "2026-07-12",
-        "change": "Created Week 3 plan: Recovery + Consistency",
-        "reason": "Current metrics: weight 73kg, fatigue 6/10, knee 2/10, mild calf soreness. Goal is to reduce fatigue to <=4/10, knee to 0–1/10, maintain 2 strength sessions and 3 running exposures, and avoid chasing volume.",
+        "date": "2026-07-13",
+        "change": "Week 3 swapped lower-body and upper-body strength days",
+        "reason": "Lower-body strength immediately before a long run is not ideal under current fatigue 6/10, knee 2/10, and mild calf soreness. Move lower body to Wednesday and upper body/core to Saturday to protect Sunday long-run readiness.",
         "confidence": "High"
       }
     ]
   },
-  "last_updated": "2026-07-12T23:59:00+08:00"
+  "last_updated": "2026-07-13T00:05:00+08:00"
 }

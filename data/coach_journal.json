@@ -59,5 +59,11 @@
     "change": "Created Week 3 plan: Recovery + Consistency",
     "reason": "Current metrics: weight 73kg, fatigue 6/10, knee 2/10, mild calf soreness. Goal is to reduce fatigue to <=4/10, knee to 0–1/10, maintain 2 strength sessions and 3 running exposures, and avoid chasing volume.",
     "confidence": "High"
+  },
+  {
+    "date": "2026-07-13",
+    "change": "Week 3 swapped lower-body and upper-body strength days",
+    "reason": "Lower-body strength immediately before a long run is not ideal under current fatigue 6/10, knee 2/10, and mild calf soreness. Move lower body to Wednesday and upper body/core to Saturday to protect Sunday long-run readiness.",
+    "confidence": "High"
   }
 ]

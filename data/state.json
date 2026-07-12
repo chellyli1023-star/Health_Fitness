@@ -15,13 +15,13 @@
     "reason": [
       "上周训练负荷 moderate-high，当前疲劳 6/10。",
       "膝盖 2/10 有轻微压力但无痛，优先保护恢复。",
-      "Week 3 目标是 Recovery + Consistency，不追跑量。"
+      "下肢力量提前到周三，避免周六练腿后直接接周日长距离。"
     ]
   },
   "reasons": [
     "上周训练负荷 moderate-high，当前疲劳 6/10。",
     "膝盖 2/10 有轻微压力但无痛，优先保护恢复。",
-    "Week 3 目标是 Recovery + Consistency，不追跑量。"
+    "下肢力量提前到周三，避免周六练腿后直接接周日长距离。"
   ],
   "week": {
     "label": "Week 3",
@@ -49,8 +49,8 @@
       {
         "day": "Wed",
         "status": "planned",
-        "type": "Upper Body + Core",
-        "content": "Upper + Core 40–50min"
+        "type": "Strength",
+        "content": "Lower Body controlled 40–45min"
       },
       {
         "day": "Thu",
@@ -67,8 +67,8 @@
       {
         "day": "Sat",
         "status": "planned",
-        "type": "Strength",
-        "content": "Lower Body controlled 40–45min"
+        "type": "Upper Body + Core",
+        "content": "Upper + Core 40–50min"
       },
       {
         "day": "Sun",
@@ -90,10 +90,10 @@
     "reason": "Maintain running consistency while reducing intensity peaks after fatigue 6/10 and knee 2/10."
   },
   "last_ai_adjustment": {
-    "date": "2026-07-12",
-    "change": "Created Week 3 plan: Recovery + Consistency",
-    "reason": "Current metrics: weight 73kg, fatigue 6/10, knee 2/10, mild calf soreness. Goal is to reduce fatigue to <=4/10, knee to 0–1/10, maintain 2 strength sessions and 3 running exposures, and avoid chasing volume.",
+    "date": "2026-07-13",
+    "change": "Week 3 swapped lower-body and upper-body strength days",
+    "reason": "Lower-body strength immediately before a long run is not ideal under current fatigue 6/10, knee 2/10, and mild calf soreness. Move lower body to Wednesday and upper body/core to Saturday to protect Sunday long-run readiness.",
     "confidence": "High"
   },
-  "last_updated": "2026-07-12T23:59:00+08:00"
+  "last_updated": "2026-07-13T00:05:00+08:00"
 }

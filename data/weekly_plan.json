@@ -77,14 +77,19 @@
       "date": "2026-07-15",
       "day": "Wed",
       "status": "planned",
-      "type": "Upper Body + Core",
-      "content": "Upper + Core 40–50min",
-      "duration_min": 50,
+      "type": "Strength",
+      "content": "Lower Body controlled 40–45min",
+      "duration_min": 45,
       "completed": false,
       "focus": [
-        "upper body",
-        "core stability",
-        "low knee load"
+        "controlled tempo",
+        "posterior chain",
+        "single-leg stability"
+      ],
+      "avoid": [
+        "high intensity leg work",
+        "max load",
+        "plyometrics"
       ]
     },
     {
@@ -112,19 +117,14 @@
       "date": "2026-07-18",
       "day": "Sat",
       "status": "planned",
-      "type": "Strength",
-      "content": "Lower Body controlled 40–45min",
-      "duration_min": 45,
+      "type": "Upper Body + Core",
+      "content": "Upper + Core 40–50min",
+      "duration_min": 50,
       "completed": false,
       "focus": [
-        "controlled tempo",
-        "posterior chain",
-        "single-leg stability"
-      ],
-      "avoid": [
-        "high intensity leg work",
-        "max load",
-        "plyometrics"
+        "upper body",
+        "core stability",
+        "low knee load"
       ]
     },
     {
